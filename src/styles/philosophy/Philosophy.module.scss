@@ -1,0 +1,62 @@
+.features {
+  position: relative;
+  min-height: 100%;
+  background-image: url("/media/Service_00.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+	z-index: 2;
+  margin: 5.8rem auto 0;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    margin-top: 7.8rem;
+    margin-bottom: 0;
+  }
+}
+.featuresArea {
+  margin: 0 auto;
+  width: 90%;
+}
+.featuresMainTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 2rem;
+  text-align: center;
+}
+.featuresMainSubTitle {
+  margin: 1rem 0 4rem 0;
+  text-align: center;
+}
+.featuresTitle {
+  border-bottom: solid 1px #333333;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+.featuresSubTitle {
+  font-size: 16px;
+  margin: 2rem 0 4rem;
+}
+.featuresDescription {
+  letter-spacing: 1.0;
+  margin: 2rem 0 8rem;
+}
+.returnToTop {
+  background-color: #eeeeee;
+  border-radius: 32px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 4rem;
+  text-align: center;
+  padding: 1rem;
+  width: 40%;
+
+  @media (max-width: 767px) {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+}

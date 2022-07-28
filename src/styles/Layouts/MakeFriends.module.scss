@@ -1,0 +1,132 @@
+.friendsMainTitle {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    width: 80%;
+
+    @media screen and (max-width:767px) {
+      margin: 0 auto;
+        text-align: center;
+    }
+}
+.friendsSubTitle {
+  font-size: 16px;
+  margin: 0 auto 1rem;
+  width: 80%;
+  
+  @media screen and (max-width:767px) {
+    text-align: center;
+  }
+}
+.friendsFlex {
+  display: flex;
+  justify-content: space-evenly;
+
+  @media screen and (max-width:767px) {
+    display: block;
+    text-align: center;
+  }
+}
+.friendsSingle {
+  background-color: #fafafa;
+  border: solid 0.1px #eeeeee;
+  border-radius: 8px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  height: 30%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  width: 80%;
+
+  @media screen and (max-width:767px) {
+    padding: 1rem;
+    width: 96%;
+  }
+}
+.friendsleLeft {
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 30%;
+
+  @media screen and (max-width:767px) {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+.friendsBody {
+  color: #696969;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+.friendsTag {
+  font-size: 16px;
+  
+  &:hover {
+    color: #333333;
+  }
+
+  @media screen and (max-width:767px) {
+    text-align: center;
+  }
+}
+.friendsRight {
+  padding: 1rem;
+  width: 70%;
+
+  @media screen and (max-width:767px) {
+    padding: 0;
+    width: 100%;
+  }
+}
+.friendsImage {
+  padding-top: 1rem;
+  width: 240px;
+}
+.next {
+  background-color: #eeeeee;
+  border-radius: 32px;
+  font-weight: bold;
+  margin: 2rem auto;
+  text-align: center;
+  width: 50%;
+  max-width: 300px;
+}
+.nextInner {
+  align-items: center;
+  background: #fff;
+  box-sizing: border-box;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.nextInnerIn {
+  align-items: center;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 12px #CAD4E2, -6px -6px 12px #FFF;
+  border-radius: 10px;
+  color: #333;
+  display: flex;
+  font-size: 14px;
+  height: 50px;
+  justify-content: center;  
+  left: 0;
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: -5px;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  width: 100%;
+
+  &:hover {
+    box-shadow: 0 0 4px #CAD4E2, -2px -2px 4px #FFF;
+    left: 0;
+    top: 0;
+  }
+}

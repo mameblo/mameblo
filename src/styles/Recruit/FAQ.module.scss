@@ -1,0 +1,84 @@
+.accordionArea {
+  margin: 5.8rem auto;
+  width: 80%;
+
+  @media screen and (max-width:767px) {
+    margin-top: 7.8rem;
+    width: 96%;
+  }
+}
+.accordionTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 4rem 0 1rem;
+}
+.accordionCheck {
+  display: none;
+}
+.accordionLabel {
+  background: #fafafa;
+  color: #333333;
+  display: block;
+  height: 4rem;
+  margin-bottom: 1px;
+  outline: 1px solid #eeeeee;
+  outline-offset: -1px;
+  padding: 16px;
+  position: relative;
+
+  &:after{
+    background-image: url("/media/icon_00.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-color: #9f9f9f;
+    box-sizing: border-box;
+    content: '';
+    display: block;
+    font-family: "Font Awesome 5 Free";
+    height: 4rem;
+    padding: 16px 20px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 4rem;
+  }
+}
+.accordionContent{
+    display: block;
+    height: 0;
+    opacity: 0;
+    padding: 0 10px;
+    transition: .8s;
+    visibility: hidden;
+}
+.accordionCheck:checked + .accordionLabel:after{
+    content: '';
+    background-image: url("/media/Light_00.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.accordionCheck:checked + .accordionLabel + .accordionContent{
+    height: auto;
+    opacity: 1;
+    padding: 10px;
+    visibility: visible;
+}
+.more {
+    background-color: #fafafa;
+    border: solid 0.1px #eeeeee;
+    border-radius: 40px;
+    box-shadow: 1px 2px 2px 1px rgb(0 0 0 / 10%);
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+    width: 50%;
+  
+    &:hover {
+        color: aqua;
+        background-color: #333333;
+    }
+    @media (max-width: 767px) {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+  }

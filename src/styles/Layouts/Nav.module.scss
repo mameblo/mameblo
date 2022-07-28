@@ -1,0 +1,94 @@
+.navImage {
+    background-image: url("/media/GOOD-DAY_mainLogo_05.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+ &:hover {
+    opacity: 0.8;
+ }
+}
+.mainNav {
+   background-color: #eeeeee;
+   display: flex;
+   opacity: 0.8;
+   padding: 1.6rem;
+   position: fixed;
+   position: relative;
+   width: 100%;
+   z-index: 10;
+
+   &:hover {
+      opacity: 0.8;
+   }
+}
+.navImageArea {
+
+}
+.navMenu {
+   display: none;
+}
+.navRow {
+   align-items: center;
+   display: flex;
+   flex-grow: 1;
+   justify-content: space-evenly;
+   padding-left: 1rem;
+
+   @media screen and (max-width:767px) {
+      display: none;
+   }
+}
+.navRowCharacter {
+   flex-grow: 1;
+}
+.navRowCharacterSingle {
+   color: #333333;
+   display: inline-block;
+   margin: 0 1rem;
+
+   &:hover {
+      color: aqua;
+      opacity: 0.8;
+   }
+}
+.navContent {
+   border: solid 1px #333333;
+   border-radius: 1rem;
+   border-width: 1px;
+   display: inline-block;
+   margin-top: 1rem;
+   padding: 0.8rem 1rem;
+
+   &:hover {
+      color: aqua;
+      opacity: 0.8;
+   }
+}
+.hamburgerMenu {
+   display: none;
+
+   @media screen and (max-width:767px) {
+      display: block;
+   }
+}
+.hamburgerArea {
+   border-radius: 1rem;
+   height: 4rem;
+   margin: 0 1rem;
+   position: absolute;
+      right: 0;
+   width: 4rem;
+}
+.hamburgerButton {
+   background-image: url("/media/push_00.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 64px;
+   height: 64px;
+
+   &:active {
+   background-image: url("/media/push_01.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   }
+}

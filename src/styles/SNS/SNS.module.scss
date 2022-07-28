@@ -1,0 +1,31 @@
+.sns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: auto;
+  width: 100%;
+}
+.blog {
+  background-image: url("/media/BLOG_icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem;
+  height: 48px;
+  width: 48px;
+}
+.instagram {
+  background-image: url("/media/Instagram_Glyph_Gradient_RGB.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem;
+  height: 48px;
+  width: 48px;
+}
+.line {
+  background-image: url("/media/LINE_Brand_icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem;
+  height: 48px;
+  width: 48px;
+}

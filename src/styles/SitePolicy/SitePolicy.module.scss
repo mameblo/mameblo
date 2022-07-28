@@ -1,0 +1,107 @@
+.sitePolicy {
+  position: relative;
+  min-height: 100%;
+  background-image: url("/media/SitePolicy_00.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+	z-index: 2;
+  margin: 5.8rem auto 0;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    margin-top: 7.8rem;
+    margin-bottom: 0;
+  }
+}
+.area {
+  margin: 0 auto;
+  width: 90%;
+}
+.sitePolicyMainTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 2rem;
+  text-align: center;
+}
+.sitePolicyMainSubTitle {
+  margin: 1rem 0 4rem 0;
+  text-align: center;
+}
+.sitePolicyTitle {
+  border-bottom: solid 1px #333333;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+.sitePolicySubTitle {
+  font-size: 16px;
+  margin: 2rem 0 4rem;
+}
+.sitePolicyDescription {
+  letter-spacing: 1.0;
+  margin: 2rem 0 8rem;
+}
+.returnToTop {
+  background-color: #eeeeee;
+  border-radius: 32px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 4rem;
+  text-align: center;
+  padding: 1rem;
+  width: 40%;
+
+  @media (max-width: 767px) {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+}
+.next {
+  background-color: #eeeeee;
+  border-radius: 32px;
+  font-weight: bold;
+  margin: 2rem auto 2.4rem;
+  text-align: center;
+  width: 50%;
+  max-width: 300px;
+}
+.nextInner {
+  align-items: center;
+  background: #fff;
+  box-sizing: border-box;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.nextInnerIn {
+  align-items: center;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 12px #CAD4E2, -6px -6px 12px #FFF;
+  border-radius: 10px;
+  color: #333;
+  display: flex;
+  font-size: 14px;
+  height: 50px;
+  justify-content: center;  
+  left: 0;
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: -5px;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  width: 100%;
+
+  &:hover {
+    box-shadow: 0 0 4px #CAD4E2, -2px -2px 4px #FFF;
+    left: 0;
+    top: 0;
+  }
+}
+  

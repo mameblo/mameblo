@@ -1,0 +1,45 @@
+.accordionArea {
+    margin: 1rem auto;
+    width: 100%;
+}
+.accordionCheck {
+    display: none;
+}
+.accordionLabel {
+    background: #0068b7;
+    color: #fff;
+    display: block;
+    margin-bottom: 1px;
+    padding: 16px;
+    position: relative;
+
+    &:after{
+        background: #00479d;
+        box-sizing: border-box;
+        content: '\f067';
+        display: block;
+        font-family: "Font Awesome 5 Free";
+        height: 56px;
+        padding: 16px 20px;
+        position: absolute;
+        right: 0;
+        top: 0px;
+    }
+}
+.accordionContent{
+    display: block;
+    height: 0;
+    opacity: 0;
+    padding: 0 10px;
+    transition: .8s;
+    visibility: hidden;
+}
+.accordionCheck:checked + .accordionLabel:after{
+    content: '\f068';
+}
+.accordionCheck:checked + .accordionLabel + .accordionContent{
+    height: auto;
+    opacity: 1;
+    padding: 10px;
+    visibility: visible;
+}

@@ -1,0 +1,137 @@
+// ━━━━━━━━━━━━━━━━━━━━
+// stylist.tsxのcss
+// ━━━━━━━━━━━━━━━━━━━━
+.mainHome {
+  margin-top: 5.8rem;
+
+  @media screen and (max-width:767px) {
+    margin-top: 7.8rem;
+  }
+}
+.stylistArea {
+  
+}
+.stylistMainTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 1rem;
+}
+.stylistMainTitleText {
+  font-size: 16px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  width: 90%;
+}
+.stylistColumn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.stylistSingle {
+  background-color: #fafafa;
+  border: solid 0.1px #eeeeee;
+  border-radius: 8px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  width: calc(25% - 32px);
+  height: auto;
+  margin: 0.6rem;
+  padding: 0;
+
+  @media (max-width: 767px) {
+      // width: calc(50% - 32px);
+      text-align: center;
+      width: 100%;
+  }
+}
+.stylistSubTitle {
+  font-size:24px;
+  font-weight: bold;
+  margin: 1rem auto;
+  text-align: center;
+}
+.stylistBody {
+  color: #696969;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  width: 100%;
+  height: 72px;
+}
+.stylistTag {
+  font-size: 16px;
+  margin: 1rem auto;
+  text-align: center;
+}
+.stylistImage {
+  margin: 0 auto;
+  width: 240px;
+}
+.stylistDetailUrl {
+  color: #333333;
+  background-color: #eeeeee;
+  border-radius: 32px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+
+  &:hover {
+      color: aqua;
+      background-color: #333333;
+  }
+  @media (max-width: 767px) {
+      width: 80%;
+      margin-bottom: 2rem;
+  }
+}
+.next {
+  background-color: #eeeeee;
+  border-radius: 32px;
+  font-weight: bold;
+  margin: 2rem auto 2.4rem;
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+
+  @media (max-width: 767px) {
+    width: 60%;
+    margin-bottom: 2rem;
+  }
+}
+.nextInner {
+  align-items: center;
+  background: #fff;
+  box-sizing: border-box;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.nextInnerIn {
+  align-items: center;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 12px #CAD4E2, -6px -6px 12px #FFF;
+  border-radius: 10px;
+  color: #333;
+  display: flex;
+  font-size: 14px;
+  height: 50px;
+  justify-content: center;  
+  left: 0;
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: -5px;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  width: 100%;
+
+  &:hover {
+    box-shadow: 0 0 4px #CAD4E2, -2px -2px 4px #FFF;
+    left: 0;
+    top: 0;
+  }
+}
