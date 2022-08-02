@@ -26,14 +26,20 @@ const MakeFriends: React.FC = () => {
           </div>
           <div className={styles.friendsRight}>
             <div className={styles.friendsMainTitle}>
-              <Link href={"https://page.line.me/153jsnax?openQrModal=true"} passHref>
+              <Link
+                href={"https://page.line.me/153jsnax?openQrModal=true"}
+                passHref
+              >
                 <a>
                   <h2>お友達追加はこちら</h2>
                 </a>
               </Link>
             </div>
             {/* Prevent HTML tags from being output */}
-            <Link href={"https://page.line.me/153jsnax?openQrModal=true"} passHref>
+            <Link
+              href={"https://page.line.me/153jsnax?openQrModal=true"}
+              passHref
+            >
               <a>
                 <div className={styles.friendsBody}>
                   GOOD-DAYでスタイリストとして働いてみたいという美容師さん。お気軽にご連絡ください。
