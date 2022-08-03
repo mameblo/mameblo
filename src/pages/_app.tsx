@@ -8,9 +8,17 @@ import NextNprogress from "nextjs-progressbar";
 import Footer from "../components/layouts/Footer";
 import HamburgerMenu from "../components/layouts/HamburgerMenu";
 
+import { googleTagManagerId } from "../utils/gtm";
+import GoogleTagManager, {
+  GoogleTagManagerId,
+} from "../components/layouts/GoogleTagManager";
+
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <GoogleTagManager
+        googleTagManagerId={googleTagManagerId as GoogleTagManagerId}
+      />
       <NextNprogress
         color="aqua"
         startPosition={0.3}

@@ -36,6 +36,7 @@ export default function SEO({
       <link rel="canonical" href={url} />
       <link rel="shortcut icon" href={"/favicon.ico"} />
       <link rel="apple-touch-icon" href={"/GOOD-DAY_mainLogo.png"} />
+      <meta name="google-site-verification" content="b0fvth4fo1qgmc_KutS3RmpSCKlpM6hS0xo3GI2hR88" />
     </Head>
   );
 }
