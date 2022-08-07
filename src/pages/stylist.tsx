@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { client } from "../libs/client";
 import SEO from "../components/layouts/SEO";
-import type { Stylist } from "../../types/stylist";
+import type { Stylist } from "../types/stylist";
 import styles from "../styles/Stylist/Stylist.module.scss";
 import HamburgerMenu from "../components/layouts/HamburgerMenu";
 

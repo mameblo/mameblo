@@ -7,7 +7,7 @@ import Works from "../components/home/Works";
 import Staffs from "../components/staff/Staffs";
 import styles from "../styles/Home.module.scss";
 import Styles from "../components/gallery/styles";
-import type { Article } from "../../types/article";
+import type { Article } from "../types/article";
 import TopCarousel from "../components/home/TopCarousel";
 import MakeFriends from "../components/home/MakeFriends";
 import NakashimaShopInfo from "../components/shop/Nakashima";

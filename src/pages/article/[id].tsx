@@ -3,7 +3,7 @@ import { GetServerSideProps } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { client } from "../../libs/client";
-import type { Article } from "../../../types/article";
+import type { Article } from "../../types/article";
 import styles from "../../styles/Stylist/Detail.module.scss";
 
 type Props = {
