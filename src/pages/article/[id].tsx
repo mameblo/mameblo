@@ -10,6 +10,8 @@ type Props = {
   article: Article;
 };
 
+const PER_PAGE = 5;
+
 export default function Article({ article }: Props) {
   return (
     <div className={styles.detailArea}>
@@ -59,6 +61,7 @@ export default function Article({ article }: Props) {
   );
 }
 
+// データを取得
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
   const id = ctx.params?.id;
   const idExceptArray = id instanceof Array ? id[0] : id;

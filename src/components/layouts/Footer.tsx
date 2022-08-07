@@ -13,7 +13,14 @@ export default function Footer() {
         <div className={styles.footerBrock}>
           <Link href={"/"} passHref>
             <a>
-              <p className={styles.footerTitle}>Home</p>
+              <Image
+                className=""
+                src={"/media/GOOD-DAY_mainLogo_05.png"}
+                objectFit="contain"
+                alt={"GOOD-DAY メインロゴ"}
+                width={80}
+                height={80}
+              />
             </a>
           </Link>
         </div>

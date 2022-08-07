@@ -8,6 +8,15 @@ export default function NewShop() {
     <>
       <div id="NewShop" className={styles.menu}>
         <h2 className={styles.menuTitle}>新店舗情報</h2>
+        <div className={styles.shopImg}>
+          <Image
+            src={"/media/ComingSoon_00.jpg"}
+            objectFit="contain"
+            alt={"commig soon !!"}
+            width={1920}
+            height={1060}
+          />
+        </div>
         <table className={styles.menuArea}>
           <tbody>
             <tr className={styles.menuTableTr}>
