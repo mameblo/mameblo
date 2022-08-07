@@ -5,6 +5,7 @@ import Image from "next/image";
 import { client } from "../../libs/client";
 import type { Article } from "../../types/article";
 import styles from "../../styles/Stylist/Detail.module.scss";
+import SEO from "../../components/layouts/SEO";
 
 type Props = {
   article: Article;
@@ -14,6 +15,14 @@ const PER_PAGE = 5;
 
 export default function Article({ article }: Props) {
   return (
+    <>
+    <SEO
+      title={article.title}
+      description={article.description}
+      keyword={article.keyword}
+      image={article.eye_catch.url}
+      url={`/article/${article.id}`}
+    />
     <div className={styles.detailArea}>
       <Link href={"/"}>
         <a>
@@ -58,6 +67,7 @@ export default function Article({ article }: Props) {
         </Link>
       </div>
     </div>
+    </>
   );
 }
 

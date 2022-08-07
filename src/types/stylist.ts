@@ -30,5 +30,7 @@ export type Stylist = {
       height: number;
       width: number;
     };
+    description: string;
+    keyword: string;
   };
   

@@ -3,6 +3,7 @@ import { GetServerSideProps } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { client } from "../../libs/client";
+import SEO from "../../components/layouts/SEO";
 import type { Stylist } from "../../types/stylist";
 import styles from "../../styles/Stylist/Detail.module.scss";
 import HamburgerMenu from "../../components/layouts/HamburgerMenu";
@@ -54,6 +55,13 @@ export default function Stylist({ stylist }: Props) {
   const stylistIds: number[] = [stylist.stylist_id];
   return (
     <>
+      <SEO
+        title={stylist.title}
+        description={stylist.description}
+        keyword={stylist.keyword}
+        image={stylist.eye_catch.url}
+        url={`/stylist/${stylist.id}`}
+      />
       <HamburgerMenu />
       <div className={styles.detailArea}>
         <Link href={"/stylist"} passHref>

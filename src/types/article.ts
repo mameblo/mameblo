@@ -13,5 +13,8 @@ export type Article = {
       width: number;
     };
     tag: string;
+    description: string;
+    keyword: string;
+    url: string;
   };
   
