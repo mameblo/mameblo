@@ -17,7 +17,7 @@ const MakeFriends: React.FC = () => {
                   className={styles.friendsImage}
                   src={"/media/QR_LINE.png"}
                   objectFit="contain"
-                  alt={"の画像です"}
+                  alt={"友達追加はこちらから"}
                   width={240}
                   height={240}
                 />

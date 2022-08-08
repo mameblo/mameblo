@@ -145,7 +145,7 @@ export default function NakashimaGuidelines() {
                     <Image
                       src={"/media/QR_LINE.png"}
                       objectFit="contain"
-                      alt={"の画像です"}
+                      alt={"LINE公式アカウントはこちら"}
                       width={240}
                       height={240}
                     />

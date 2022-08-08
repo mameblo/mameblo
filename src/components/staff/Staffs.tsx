@@ -48,7 +48,7 @@ const Staffs: React.FC = () => {
                     className={styles.stylistImageHover}
                     src={"/media/Yuka_01.jpg"}
                     objectFit="contain"
-                    alt={"の画像です"}
+                    alt={"Yuka"}
                     width={240}
                     height={240}
                   />
@@ -62,7 +62,7 @@ const Staffs: React.FC = () => {
                     className={styles.stylistImageHover}
                     src={"/media/Mai_01.jpg"}
                     objectFit="contain"
-                    alt={"Nami"}
+                    alt={"Mai"}
                     width={240}
                     height={240}
                   />
@@ -76,7 +76,7 @@ const Staffs: React.FC = () => {
                     className={styles.stylistImageHover}
                     src={"/media/Ikemoto_01.jpg"}
                     objectFit="contain"
-                    alt={"Maho"}
+                    alt={"Ikemoto"}
                     width={240}
                     height={240}
                   />
@@ -90,7 +90,7 @@ const Staffs: React.FC = () => {
                     className={styles.stylistImageHover}
                     src={"/media/Fujii_01.jpg"}
                     objectFit="contain"
-                    alt={"の画像です"}
+                    alt={"Fujii"}
                     width={240}
                     height={240}
                   />
@@ -108,7 +108,7 @@ const Staffs: React.FC = () => {
                     className={styles.stylistImageHover}
                     src={"/media/John_01.jpg"}
                     objectFit="contain"
-                    alt={"Nami"}
+                    alt={"John"}
                     width={240}
                     height={240}
                   />
@@ -122,7 +122,7 @@ const Staffs: React.FC = () => {
                     className={styles.stylistImageHover}
                     src={"/media/Dai_01.jpg"}
                     objectFit="contain"
-                    alt={"Maho"}
+                    alt={"Dai"}
                     width={240}
                     height={240}
                   />
@@ -136,7 +136,7 @@ const Staffs: React.FC = () => {
                     className={styles.stylistImageHover}
                     src={"/media/Natsuki_01.jpg"}
                     objectFit="contain"
-                    alt={"の画像です"}
+                    alt={"Natsuki"}
                     width={240}
                     height={240}
                   />
@@ -150,7 +150,7 @@ const Staffs: React.FC = () => {
                     className={styles.stylistImageHover}
                     src={"/media/Nozomi_01.jpg"}
                     objectFit="contain"
-                    alt={"Nami"}
+                    alt={"Nozomi"}
                     width={240}
                     height={240}
                   />
@@ -164,7 +164,7 @@ const Staffs: React.FC = () => {
                     className={styles.stylistImageHover}
                     src={"/media/Mika_01.jpg"}
                     objectFit="contain"
-                    alt={"Maho"}
+                    alt={"Mika"}
                     width={240}
                     height={240}
                   />
@@ -178,7 +178,7 @@ const Staffs: React.FC = () => {
                     className={styles.stylistImageHover}
                     src={"/media/Katayama_01.jpg"}
                     objectFit="contain"
-                    alt={"の画像です"}
+                    alt={"Katayama"}
                     width={240}
                     height={240}
                   />

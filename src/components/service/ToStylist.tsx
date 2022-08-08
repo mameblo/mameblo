@@ -12,9 +12,9 @@ const ToStylist: React.FC = () => {
           <ul className={styles.flex}>
             <li className={styles.stylistImage}>
               <Image
-                src={"/media/Stylist_00.png"}
+                src={"/media/Stylist_000.png"}
                 objectFit="contain"
-                alt={"の画像です"}
+                alt={"グッディの特徴1"}
                 width={240}
                 height={240}
               />
@@ -25,7 +25,7 @@ const ToStylist: React.FC = () => {
               <Image
                 src={"/media/Stylist_01.png"}
                 objectFit="contain"
-                alt={"の画像です"}
+                alt={"グッディの特徴2"}
                 width={240}
                 height={240}
               />
@@ -36,7 +36,7 @@ const ToStylist: React.FC = () => {
               <Image
                 src={"/media/Stylist_02.png"}
                 objectFit="contain"
-                alt={"の画像です"}
+                alt={"グッディの特徴2"}
                 width={240}
                 height={240}
               />
@@ -51,7 +51,7 @@ const ToStylist: React.FC = () => {
               <Image
                 src={"/media/Stylist_03.png"}
                 objectFit="contain"
-                alt={"の画像です"}
+                alt={"グッディの特徴3"}
                 width={240}
                 height={240}
               />
@@ -62,7 +62,7 @@ const ToStylist: React.FC = () => {
               <Image
                 src={"/media/Stylist_04.png"}
                 objectFit="contain"
-                alt={"の画像です"}
+                alt={"グッディの特徴4"}
                 width={240}
                 height={240}
               />
@@ -73,7 +73,7 @@ const ToStylist: React.FC = () => {
               <Image
                 src={"/media/Stylist_05.png"}
                 objectFit="contain"
-                alt={"の画像です"}
+                alt={"グッディの特徴5"}
                 width={240}
                 height={240}
               />
@@ -88,7 +88,7 @@ const ToStylist: React.FC = () => {
               <Image
                 src={"/media/Stylist_06.png"}
                 objectFit="contain"
-                alt={"の画像です"}
+                alt={"グッディの特徴6"}
                 width={240}
                 height={240}
               />
@@ -99,7 +99,7 @@ const ToStylist: React.FC = () => {
               <Image
                 src={"/media/Stylist_07.png"}
                 objectFit="contain"
-                alt={"の画像です"}
+                alt={"グッディの特徴7"}
                 width={240}
                 height={240}
               />
@@ -110,7 +110,7 @@ const ToStylist: React.FC = () => {
               <Image
                 src={"/media/Stylist_08.png"}
                 objectFit="contain"
-                alt={"の画像です"}
+                alt={"グッディの特徴8"}
                 width={240}
                 height={240}
               />

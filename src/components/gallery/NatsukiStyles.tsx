@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/Gallery/Gallery.module.scss";
 
+const stylistName: string = "natsuki";
+
 const NatsukiStyles: React.FC = () => {
   return (
     <>
@@ -14,7 +16,7 @@ const NatsukiStyles: React.FC = () => {
                 className={styles.stylistImageHover}
                 src={"/styles/Nami_03.jpg"}
                 objectFit="contain"
-                alt={"の画像です"}
+                alt={stylistName + "のスタイル1です。"}
                 width={178}
                 height={240}
               />
@@ -28,7 +30,7 @@ const NatsukiStyles: React.FC = () => {
                 className={styles.stylistImageHover}
                 src={"/styles/Nami_01.jpg"}
                 objectFit="contain"
-                alt={"の画像です"}
+                alt={stylistName + "のスタイル2です。"}
                 width={178}
                 height={240}
               />
@@ -42,7 +44,7 @@ const NatsukiStyles: React.FC = () => {
                 className={styles.stylistImageHover}
                 src={"/styles/Nami_00.jpg"}
                 objectFit="contain"
-                alt={"の画像です"}
+                alt={stylistName + "のスタイル3です。"}
                 width={178}
                 height={240}
               />
