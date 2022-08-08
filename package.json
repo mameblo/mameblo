@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
     "export": "next export"
@@ -54,6 +55,7 @@
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
     "eslint-plugin-tailwindcss": "^3.5.2",
+    "next-sitemap": "^3.1.16",
     "postcss": "^8.4.14",
     "postcss-nested": "^5.0.6",
     "prettier": "^2.7.0",
