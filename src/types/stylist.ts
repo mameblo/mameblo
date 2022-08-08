@@ -11,6 +11,7 @@ export type Stylist = {
       width: number;
     };
     title: string;
+    subTitle: string;
     tag: string;
     profile: string;
     body: string;

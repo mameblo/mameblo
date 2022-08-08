@@ -56,7 +56,7 @@ export default function Stylist({ stylist }: Props) {
   return (
     <>
       <SEO
-        title={stylist.title}
+        title={stylist.title + " | " + stylist.subTitle}
         description={stylist.description}
         keyword={stylist.keyword}
         image={stylist.eye_catch.url}

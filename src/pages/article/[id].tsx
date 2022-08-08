@@ -17,7 +17,7 @@ export default function Article({ article }: Props) {
   return (
     <>
       <SEO
-        title={article.title}
+        title={article.title + " | " + article.subTitle}
         description={article.description}
         keyword={article.keyword}
         image={article.eye_catch.url}

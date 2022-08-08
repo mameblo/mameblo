@@ -6,6 +6,7 @@ export type Article = {
     publishedAt: string;
     revisedAt: string;
     title: string;
+    subTitle: string;
     body: string;
     eye_catch: {
       url: string;
