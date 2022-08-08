@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/Gallery/Gallery.module.scss";
 
-const stylistName: string = "池本 麻紀子"; 
+const stylistName: string = "池本 麻紀子";
 
 const IkemotoStyles: React.FC = () => {
   return (
