@@ -10,6 +10,7 @@ export default function FAQ() {
         <h2 id="FAQ" className={styles.accordionTitle}>
           よくある質問(FAQ)
         </h2>
+
         <input
           id="accordionCheck0"
           className={styles.accordionCheck}
@@ -26,6 +27,7 @@ export default function FAQ() {
             必要な時に必要な分だけグッディを使うことができます。
           </p>
         </div>
+
         <input
           id="accordionCheck1"
           className={styles.accordionCheck}
@@ -45,6 +47,7 @@ export default function FAQ() {
             尚、解約の際は解約金は必要ありません。(ただし事前のご相談が必要です)
           </p>
         </div>
+
         <input
           id="accordionCheck2"
           className={styles.accordionCheck}
@@ -64,6 +67,7 @@ export default function FAQ() {
             その後、独立の際に役立つスキルなので是非身につけていきましょう。
           </p>
         </div>
+
         <input
           id="accordionCheck3"
           className={styles.accordionCheck}
@@ -80,6 +84,7 @@ export default function FAQ() {
             予めご自身で提供メニュー、料金、時間をご検討いただくとスタートがスムーズです。
           </p>
         </div>
+
         <input
           id="accordionCheck4"
           className={styles.accordionCheck}
@@ -99,6 +104,7 @@ export default function FAQ() {
             グッディが指定する薬剤はございませんので、仕入れ、在庫管理など全てご自身でご対応ください。(一部店舗ではグッディが準備しています)
           </p>
         </div>
+
         <input
           id="accordionCheck5"
           className={styles.accordionCheck}
@@ -118,6 +124,7 @@ export default function FAQ() {
             お客様のご希望に合わせて、ご自身でスケジュールを組んでいただきます。
           </p>
         </div>
+
         <input
           id="accordionCheck6"
           className={styles.accordionCheck}
@@ -134,6 +141,7 @@ export default function FAQ() {
             ただし、お客様への周知や手続きの為、退会する場合には最低1ヶ月前にはご申告ください。
           </p>
         </div>
+
         <input
           id="accordionCheck7"
           className={styles.accordionCheck}
@@ -150,6 +158,64 @@ export default function FAQ() {
             グレイカラーはナプラです。
           </p>
         </div>
+
+        <input
+          id="accordionCheck8"
+          className={styles.accordionCheck}
+          type="checkbox"
+        ></input>
+        <label className={styles.accordionLabel} htmlFor="accordionCheck8">
+          入店時に準備するものって何？
+        </label>
+        <div className={styles.accordionContent}>
+          <p>
+            ワゴンとロッカーだけは貸与させていただきます。それ以外の備品、業務に使用する薬剤、道具をご準備ください。
+          </p>
+        </div>
+
+        <input
+          id="accordionCheck9"
+          className={styles.accordionCheck}
+          type="checkbox"
+        ></input>
+        <label className={styles.accordionLabel} htmlFor="accordionCheck9">
+          タオルは無料ですか？
+        </label>
+        <div className={styles.accordionContent}>
+          <p>
+            シャンプーとタオルは店舗が提供しています。また、日用品(トイレットペーパー、掃除道具、ティッシュなど)については一部店舗側が購入します。
+          </p>
+        </div>
+
+        <input
+          id="accordionCheck10"
+          className={styles.accordionCheck}
+          type="checkbox"
+        ></input>
+        <label className={styles.accordionLabel} htmlFor="accordionCheck10">
+          決済時の手数料負担について
+        </label>
+        <div className={styles.accordionContent}>
+          <p>
+            クレジットカード、QR決済などを利用した場合の手数料は店舗側が負担しています。
+          </p>
+        </div>
+
+        <input
+          id="accordionCheck11"
+          className={styles.accordionCheck}
+          type="checkbox"
+        ></input>
+        <label className={styles.accordionLabel} htmlFor="accordionCheck11">
+          ドリンクの提供はありますか？
+        </label>
+        <div className={styles.accordionContent}>
+          <p>
+            スタイリストによって提供している場合とそうでない場合がございます。
+            詳しくはスタイリストまでご確認ください。
+          </p>
+        </div>
+
         {/* 必要になったタイミングで増やしましょう。
         <Link href={"/"} passHref>
           <a>

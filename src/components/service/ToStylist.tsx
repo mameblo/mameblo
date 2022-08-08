@@ -18,8 +18,8 @@ const ToStylist: React.FC = () => {
                 width={240}
                 height={240}
               />
-              <p className={styles.fontBord}>収入Upも夢じゃない</p>
-              <p>夢のために貯金できます。</p>
+              <p className={styles.fontBord}>店舗が新しくて綺麗</p>
+              <p>快適な環境で安心して働けます。</p>
             </li>
             <li className={styles.stylistImage}>
               <Image
