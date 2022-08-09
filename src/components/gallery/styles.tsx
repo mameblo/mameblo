@@ -22,14 +22,14 @@ const Styles: React.FC = () => {
         <h2 className={styles.featuresMainTitle}>GOOD-DAY Hit Styles</h2>
         <p className={styles.featuresMainSubTitle}>スタイル一覧</p>
         <NamiStyles />
-        {/* <MahoStyles /> */}
+        <MahoStyles />
         <YukaStyles />
         <MaiStyles />
         {/* <IkemotoStyles /> */}
         <FujiiStyles />
         <JohnStyles />
         <DaiStyles />
-        {/* <NatsukiStyles /> */}
+        <NatsukiStyles />
         <NozomiStyles />
         <MikaStyles />
         <KatayamaStyles />
