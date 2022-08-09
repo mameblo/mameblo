@@ -17,7 +17,7 @@ export default function SNS() {
             <div className={styles.instagram}></div>
           </a>
         </Link>
-        <Link href={"https://lin.ee/784zxefy"} passHref>
+        <Link href={"https://line.me/R/ti/p/%40784zxefy"} passHref>
           <a>
             <div className={styles.line}></div>
           </a>
