@@ -12,12 +12,12 @@ export default function YukaSNS() {
             <div className={styles.blog}></div>
           </a>
         </Link>
-        <Link href={"/"} passHref>
+        <Link href={"https://www.instagram.com/fujiwara__yuka/"} passHref>
           <a>
             <div className={styles.instagram}></div>
           </a>
         </Link>
-        <Link href={"/"} passHref>
+        <Link href={"https://line.me/R/ti/p/%40740qgxwo"} passHref>
           <a>
             <div className={styles.line}></div>
           </a>

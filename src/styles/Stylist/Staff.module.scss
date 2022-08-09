@@ -118,7 +118,8 @@
   box-sizing: border-box;
 
   &:hover {
-    outline:solid 4px aqua;
-    outline-offset: -10px;
+    opacity: 0.8;
+    // outline:solid 4px #0000ee;
+    // outline-offset: -10px;
   }
 }

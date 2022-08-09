@@ -12,12 +12,12 @@ export default function SNS() {
             <div className={styles.blog}></div>
           </a>
         </Link>
-        <Link href={"/"} passHref>
+        <Link href={"https://www.instagram.com/ma814ho/"} passHref>
           <a>
             <div className={styles.instagram}></div>
           </a>
         </Link>
-        <Link href={"/"} passHref>
+        <Link href={"https://lin.ee/784zxefy"} passHref>
           <a>
             <div className={styles.line}></div>
           </a>

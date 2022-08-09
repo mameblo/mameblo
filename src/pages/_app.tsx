@@ -20,7 +20,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         googleTagManagerId={googleTagManagerId as GoogleTagManagerId}
       />
       <NextNprogress
-        color="aqua"
+        color="#0000ee"
         startPosition={0.3}
         stopDelayMs={200}
         height={4}
