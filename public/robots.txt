@@ -3,8 +3,8 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://good-day.netlify.app
+Host: https://undefined
 
 # Sitemaps
-Sitemap: https://good-day.netlify.app/sitemap.xml
-Sitemap: https://good-day.netlify.app/server-sitemap.xml
+Sitemap: https://undefined/sitemap.xml
+Sitemap: https://undefined/server-sitemap.xml
