@@ -14,7 +14,7 @@ const DaiStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/illust07.jpg"}
+                src={"/styles/illust03_1.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル1です。"}
                 width={178}
@@ -28,7 +28,7 @@ const DaiStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/Dai_07-3-3.jpg"}
+                src={"/styles/illust03.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル2です。"}
                 width={178}
@@ -42,7 +42,7 @@ const DaiStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/illust07_3.jpg"}
+                src={"/styles/illust03_2.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル3です。"}
                 width={178}

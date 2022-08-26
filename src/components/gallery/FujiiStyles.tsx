@@ -14,7 +14,7 @@ const FujiiStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/Fujii_00.jpg"}
+                src={"/styles/illust04_2.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル1です。"}
                 width={178}
@@ -28,7 +28,7 @@ const FujiiStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/Fujii_01.jpg"}
+                src={"/styles/illust04_1.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル2です。"}
                 width={178}
@@ -42,7 +42,7 @@ const FujiiStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/Fujii_02.jpg"}
+                src={"/styles/illust04.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル3です。"}
                 width={178}

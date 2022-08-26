@@ -14,7 +14,7 @@ const NatsukiStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/natsuki_00.jpg"}
+                src={"/styles/illust06-1.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル1です。"}
                 width={178}
@@ -28,7 +28,7 @@ const NatsukiStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/natsuki_01.jpg"}
+                src={"/styles/illust06-2.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル2です。"}
                 width={178}
@@ -42,7 +42,7 @@ const NatsukiStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/natsuki_02.jpg"}
+                src={"/styles/illust06-3.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル3です。"}
                 width={178}

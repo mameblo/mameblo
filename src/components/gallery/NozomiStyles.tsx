@@ -14,7 +14,7 @@ const NozomiStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/nozomi_00.jpg"}
+                src={"/styles/mrs.illust01.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル1です。"}
                 width={178}
@@ -28,7 +28,7 @@ const NozomiStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/nozomi_01.jpg"}
+                src={"/styles/mrs.illust02.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル2です。"}
                 width={178}
@@ -42,7 +42,7 @@ const NozomiStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/nozomi_02.jpg"}
+                src={"/styles/mrs.illust03.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル3です。"}
                 width={178}

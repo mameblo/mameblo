@@ -14,7 +14,7 @@ const MikaStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/Mika_00.jpg"}
+                src={"/styles/illust0_1.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル1です。"}
                 width={178}
@@ -28,7 +28,7 @@ const MikaStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/Mika_01.jpg"}
+                src={"/styles/illust0.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル2です。"}
                 width={178}
@@ -42,7 +42,7 @@ const MikaStyles: React.FC = () => {
             <li className={styles.stylistImage}>
               <Image
                 className={styles.stylistImageHover}
-                src={"/styles/Mika_02.jpg"}
+                src={"/styles/illust0_2.jpg"}
                 objectFit="contain"
                 alt={stylistName + "のスタイル3です。"}
                 width={178}
