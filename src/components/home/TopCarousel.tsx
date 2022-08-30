@@ -6,9 +6,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const TopCarousel = () => {
   const images: string[] = [
-    "/media/main_slider_00.jpg",
-    "/media/main_slider_01.jpg",
-    "/media/main_slider_02.jpg",
+    "/media/slider02.jpg",
+    "/media/slider03.jpg",
+    "/media/slider04.jpg",
   ];
   return (
     <>

@@ -35,7 +35,7 @@ export default function Home({ articles }: Props) {
       <div className={styles.mainHome}>
         <TopCarousel />
         <div className={styles.articleArea}>
-          <h2 className={styles.articleMainTitle}>News &amp; Topics</h2>
+          <h2 className={styles.articleMainTitle}>Blog</h2>
           {articles.map((article) => (
             <div className={styles.articleSingle} key={article.id}>
               <div className={styles.articleFlex}>

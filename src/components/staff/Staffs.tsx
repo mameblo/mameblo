@@ -7,8 +7,8 @@ const Staffs: React.FC = () => {
   return (
     <>
       <div>
-        <h2 className={styles.mainTitle}>Stylists</h2>
-        <p className={styles.mainSubTitle}>スタイリスト一覧</p>
+        <h2 className={styles.mainTitle}>Portfolio</h2>
+        <p className={styles.mainSubTitle}>作品集</p>
       </div>
       <div className={styles.main}>
         <div>
@@ -18,7 +18,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/Nami_01.jpg"}
+                    src={"/media/w&m.jpg"}
                     objectFit="contain"
                     alt={"Nami"}
                     width={240}
@@ -32,7 +32,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/Maho_01.jpg"}
+                    src={"/media/flyer02.jpg"}
                     objectFit="contain"
                     alt={"Maho"}
                     width={240}
@@ -46,7 +46,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/Yuka_01.jpg"}
+                    src={"/media/contents.jpg"}
                     objectFit="contain"
                     alt={"Yuka"}
                     width={240}
@@ -60,7 +60,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/Mai_01.jpg"}
+                    src={"/media/contents01.jpg"}
                     objectFit="contain"
                     alt={"Mai"}
                     width={240}
@@ -74,7 +74,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/Ikemoto_01.jpg"}
+                    src={"/media/slider.jpg"}
                     objectFit="contain"
                     alt={"Ikemoto"}
                     width={240}
@@ -88,7 +88,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/Fujii_01.jpg"}
+                    src={"/media/slider01.jpg"}
                     objectFit="contain"
                     alt={"Fujii"}
                     width={240}
@@ -106,7 +106,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/John_01.jpg"}
+                    src={"/media/slider02.jpg"}
                     objectFit="contain"
                     alt={"John"}
                     width={240}
@@ -120,7 +120,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/Dai_01.jpg"}
+                    src={"/media/flyer2_01.jpg"}
                     objectFit="contain"
                     alt={"Dai"}
                     width={240}

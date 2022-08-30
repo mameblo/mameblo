@@ -19,8 +19,8 @@ const Styles: React.FC = () => {
   return (
     <>
       <div id="Works" className={styles.main}>
-        <h2 className={styles.featuresMainTitle}>GOOD-DAY Hit Styles</h2>
-        <p className={styles.featuresMainSubTitle}>スタイル一覧</p>
+        <h2 className={styles.featuresMainTitle}>Illust</h2>
+        <p className={styles.featuresMainSubTitle}>ゆるかわイラスト集</p>
         <NamiStyles />
         <MahoStyles />
         <YukaStyles />
