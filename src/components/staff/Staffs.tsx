@@ -157,12 +157,13 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/mika"}>
+            {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
+            <Link href={"/stylist/test00"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/Mika_01.jpg"}
+                    src={"public/media/slider01.jpg"}
                     objectFit="contain"
                     alt={"Mika"}
                     width={240}

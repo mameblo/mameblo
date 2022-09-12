@@ -8,6 +8,9 @@ export default function HamburgerMenu() {
   const menuFunction = () => {
     setOpenMenu(!openMenu);
   };
+
+  const me = "Me";
+
   return (
     <>
       <header id="header" className={styles.header}>
@@ -34,7 +37,7 @@ export default function HamburgerMenu() {
             </li>
             <li>
               <Link href="/stylist" passHref>
-                <a>Stylist</a>
+                <a>Portfolio</a>
               </Link>
             </li>
             <li>
@@ -48,21 +51,13 @@ export default function HamburgerMenu() {
               </Link>
             </li>
             <li>
-              <Link href="/recruit" passHref>
-                <a>Recruit</a>
-              </Link>
-            </li>
-            <li>
               <Link href="/company" passHref>
-                <a>Company</a>
+                <a>{me}</a>
               </Link>
             </li>
             <li className={styles.poyoyon}>
-              <Link
-                href="https://sam004.salonanswer.com/sas/reserve/goodday/staff"
-                passHref
-              >
-                <a>Reservation</a>
+              <Link href="/" passHref>
+                <a>contact</a>
               </Link>
             </li>
           </ul>
@@ -85,19 +80,11 @@ export default function HamburgerMenu() {
             <span></span>
             <p>Close</p>
           </div>
-          {/* <li>
-            <Link href="/" passHref>
-              <a>
-                <p className={styles.mainTitle}>Home</p>
-                <p className={styles.subTitle}>ホーム</p>
-              </a>
-            </Link>
-          </li> */}
           <li>
             <Link href="/stylist" passHref>
               <a>
-                <p className={styles.mainTitle}>Stylist</p>
-                <p className={styles.subTitle}>スタイリスト</p>
+                <p className={styles.mainTitle}>Portfolio</p>
+                <p className={styles.subTitle}>作品集</p>
               </a>
             </Link>
           </li>
@@ -118,18 +105,10 @@ export default function HamburgerMenu() {
             </Link>
           </li>
           <li>
-            <Link href="/recruit" passHref>
-              <a>
-                <p className={styles.mainTitle}>Recruit</p>
-                <p className={styles.subTitle}>リクルート</p>
-              </a>
-            </Link>
-          </li>
-          <li>
             <Link href="/company" passHref>
               <a>
-                <p className={styles.mainTitle}>Company</p>
-                <p className={styles.subTitle}>運営会社</p>
+                <p className={styles.mainTitle}>{me}</p>
+                <p className={styles.subTitle}>私について</p>
               </a>
             </Link>
           </li>
@@ -140,8 +119,8 @@ export default function HamburgerMenu() {
                 passHref
               >
                 <a>
-                  <p className={styles.mainTitle}>Reservation</p>
-                  <p className={styles.subTitle}>予約する</p>
+                  <p className={styles.mainTitle}>Contact</p>
+                  <p className={styles.subTitle}>お問い合わせ</p>
                 </a>
               </Link>
             </li>
