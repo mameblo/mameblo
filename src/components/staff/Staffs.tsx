@@ -134,7 +134,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/Natsuki_01.jpg"}
+                    src={"/media/flyer2_00.jpg"}
                     objectFit="contain"
                     alt={"Natsuki"}
                     width={240}
@@ -148,7 +148,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/Nozomi_01.jpg"}
+                    src={"/media/slider04.jpg"}
                     objectFit="contain"
                     alt={"Nozomi"}
                     width={240}
@@ -163,7 +163,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"public/media/slider01.jpg"}
+                    src={"/media/slider03.jpg"}
                     objectFit="contain"
                     alt={"Mika"}
                     width={240}
