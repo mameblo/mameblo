@@ -4,101 +4,39 @@ import Image from "next/image";
 import styles from "../../styles/Stylist/Staff.module.scss";
 
 const Staffs: React.FC = () => {
+
+  // ここに画像を配列として格納する
+  const images: string[] = [
+
+  ];
+  
   return (
     <>
       <div>
         <h2 className={styles.mainTitle}>Portfolio</h2>
         <p className={styles.mainSubTitle}>作品集</p>
       </div>
+
       <div className={styles.main}>
         <div>
           <ul className={styles.flex}>
-            <Link href={"/stylist/nami"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/w&m.jpg"}
-                    objectFit="contain"
-                    alt={"Nami"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            <Link href={"/stylist/maho"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/flyer02.jpg"}
-                    objectFit="contain"
-                    alt={"Maho"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            <Link href={"/stylist/yuka"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/contents.jpg"}
-                    objectFit="contain"
-                    alt={"Yuka"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            <Link href={"/stylist/mai"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/contents01.jpg"}
-                    objectFit="contain"
-                    alt={"Mai"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            <Link href={"/stylist/ikemoto"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/slider.jpg"}
-                    objectFit="contain"
-                    alt={"Ikemoto"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            <Link href={"/stylist/fujii"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/slider01.jpg"}
-                    objectFit="contain"
-                    alt={"Fujii"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
+
+          {/* 画像を順番に出力する */}
+          {images.map((url, key) => (
+            <div key={key}>
+              <Image
+                src={url}
+                height={500}
+                width={315}
+                alt={"画像です。"}
+                objectFit="contain"
+              />
+            </div>
+          ))}
+
           </ul>
         </div>
+
         <div>
           <ul className={styles.flex}>
             <Link href={"/stylist/john"}>
@@ -177,7 +115,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/Katayama_01.jpg"}
+                    src={"/media/flyer3_00.jpg"}
                     objectFit="contain"
                     alt={"Katayama"}
                     width={240}

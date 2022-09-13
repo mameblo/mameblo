@@ -146,6 +146,7 @@ export default function Stylist({ stylist }: Props) {
                   );
                 })}
               </div>
+              stylistId = [<KatayamaSNS />, <MikaSNS />, ] 
               <div className={styles.tag}>
                 {stylist.tag && (
                   <div className={styles.detailTag}>

@@ -19,7 +19,7 @@ export default function HamburgerMenu() {
             <a>
               <Image
                 className={styles.navImage}
-                src={"/media/GOOD-DAY_mainLogo_05.png"}
+                src={"/media/mameblo_logo.png"}
                 objectFit="contain"
                 alt="GOOD-DAY_MainLogo"
                 width={56}
