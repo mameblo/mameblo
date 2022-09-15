@@ -7,12 +7,12 @@ const Features: React.FC = () => {
       <div className={styles.features}>
         <h2 className={styles.featuresMainTitle}>Philosophy</h2>
         <p className={styles.featuresMainSubTitle}>
-          GOOD-DAYが大切にしたいこと
+          デザインも含めた仕事をする上で大切にしたいこと
         </p>
         <div className={styles.featuresArea}>
           <>
             <h2 className={styles.featuresTitle}>
-              時代に合った新しい働き方を…
+              熱意を持ってこだわる
             </h2>
             <div className={styles.featuresDescription}>
               グッディは、日本にいる全ての美容師さんが「もっと自分らしく仕事を楽しんで欲しい」と考えています。

@@ -39,7 +39,7 @@ const Staffs: React.FC = () => {
 
         <div>
           <ul className={styles.flex}>
-            <Link href={"/stylist/john"}>
+            <Link href={"/stylist/hre_logo"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -53,7 +53,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/dai"}>
+            <Link href={"/stylist/fukuya"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -67,7 +67,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/natsuki"}>
+            <Link href={"/stylist/hre"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -81,7 +81,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/nozomi"}>
+            <Link href={"/stylist/fukuya01"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -96,7 +96,7 @@ const Staffs: React.FC = () => {
               </a>
             </Link>
             {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
-            <Link href={"/stylist/test00"}>
+            <Link href={"/stylist/ticket00"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -110,7 +110,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/katayama"}>
+            <Link href={"/stylist/ticket01"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -126,7 +126,7 @@ const Staffs: React.FC = () => {
             </Link>
           </ul>
           <ul className={styles.flex}>
-            <Link href={"/stylist/john"}>
+            <Link href={"/stylist/flyer00"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -140,7 +140,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/dai"}>
+            <Link href={"/stylist/flyer01"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -154,7 +154,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/natsuki"}>
+            <Link href={"/stylist/flyer02"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -168,7 +168,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/nozomi"}>
+            <Link href={"/stylist/flyer03"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -183,7 +183,7 @@ const Staffs: React.FC = () => {
               </a>
             </Link>
             {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
-            <Link href={"/stylist/test00"}>
+            <Link href={"/stylist/flyer04"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -197,7 +197,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/katayama"}>
+            <Link href={"/stylist/flyer05"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -213,7 +213,7 @@ const Staffs: React.FC = () => {
             </Link>
           </ul>
           <ul className={styles.flex}>
-            <Link href={"/stylist/john"}>
+            <Link href={"/stylist/slider"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -227,7 +227,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/dai"}>
+            <Link href={"/stylist/slider01"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -241,7 +241,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/natsuki"}>
+            <Link href={"/stylist/slider02"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -255,7 +255,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/nozomi"}>
+            <Link href={"/stylist/slider03"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -270,7 +270,7 @@ const Staffs: React.FC = () => {
               </a>
             </Link>
             {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
-            <Link href={"/stylist/test00"}>
+            <Link href={"/stylist/slider04"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -284,7 +284,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/katayama"}>
+            <Link href={"/stylist/slider05"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -300,7 +300,7 @@ const Staffs: React.FC = () => {
             </Link>
           </ul>
           <ul className={styles.flex}>
-            <Link href={"/stylist/john"}>
+            <Link href={"/stylist/slider06"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -314,7 +314,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/dai"}>
+            <Link href={"/stylist/slider07"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -328,7 +328,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/natsuki"}>
+            <Link href={"/stylist/slider08"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -342,7 +342,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/nozomi"}>
+            <Link href={"/stylist/slider09"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -357,7 +357,7 @@ const Staffs: React.FC = () => {
               </a>
             </Link>
             {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
-            <Link href={"/stylist/test00"}>
+            <Link href={"/stylist/slider10"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -371,7 +371,7 @@ const Staffs: React.FC = () => {
                 </li>
               </a>
             </Link>
-            <Link href={"/stylist/katayama"}>
+            <Link href={"/stylist/slider11"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
