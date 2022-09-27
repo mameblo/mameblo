@@ -4,12 +4,8 @@ import Image from "next/image";
 import styles from "../../styles/Stylist/Staff.module.scss";
 
 const Staffs: React.FC = () => {
-
   // ここに画像を配列として格納する
-  const images: string[] = [
-
-  ];
-  
+  const images: string[] = [];
   return (
     <>
       <div>
@@ -20,20 +16,18 @@ const Staffs: React.FC = () => {
       <div className={styles.main}>
         <div>
           <ul className={styles.flex}>
-
-          {/* 画像を順番に出力する */}
-          {images.map((url, key) => (
-            <div key={key}>
-              <Image
-                src={url}
-                height={500}
-                width={315}
-                alt={"画像です。"}
-                objectFit="contain"
-              />
-            </div>
-          ))}
-
+            {/* 画像を順番に出力する */}
+            {images.map((url, key) => (
+              <div key={key}>
+                <Image
+                  src={url}
+                  height={500}
+                  width={315}
+                  alt={"画像です。"}
+                  objectFit="contain"
+                />
+              </div>
+            ))}
           </ul>
         </div>
 

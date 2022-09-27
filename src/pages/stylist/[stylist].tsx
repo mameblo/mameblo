@@ -16,6 +16,7 @@ import DaiSNS from "../../components/sns/DaiSNS";
 import JohnSNS from "../../components/sns/JohnSNS";
 import FujiiSNS from "../../components/sns/FujiiSNS";
 import IkemotoSNS from "../../components/sns/IkemotoSNS";
+
 import MaiSNS from "../../components/sns/MaiSNS";
 import YukaSNS from "../../components/sns/YukaSNS";
 import MahoSNS from "../../components/sns/MahoSNS";
@@ -146,7 +147,8 @@ export default function Stylist({ stylist }: Props) {
                   );
                 })}
               </div>
-              stylistId = [<KatayamaSNS />, <MikaSNS />, ] 
+              stylistId = [<KatayamaSNS />, <MikaSNS />
+              ,]
               <div className={styles.tag}>
                 {stylist.tag && (
                   <div className={styles.detailTag}>

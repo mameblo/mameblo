@@ -11,9 +11,7 @@ const Features: React.FC = () => {
         </p>
         <div className={styles.featuresArea}>
           <>
-            <h2 className={styles.featuresTitle}>
-              熱意を持ってこだわる
-            </h2>
+            <h2 className={styles.featuresTitle}>熱意を持ってこだわる</h2>
             <div className={styles.featuresDescription}>
               グッディは、日本にいる全ての美容師さんが「もっと自分らしく仕事を楽しんで欲しい」と考えています。
               <br />
