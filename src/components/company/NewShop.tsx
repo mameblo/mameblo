@@ -7,10 +7,10 @@ export default function NewShop() {
   return (
     <>
       <div id="NewShop" className={styles.menu}>
-        <h2 className={styles.menuTitle}>新店舗情報</h2>
+        <h2 className={styles.menuTitle}>わたしについて</h2>
         <div className={styles.shopImg}>
           <Image
-            src={"/media/ComingSoon_00.jpg"}
+            src={"/media/topimg.jpg"}
             objectFit="contain"
             alt={"commig soon !!"}
             width={1920}
@@ -20,19 +20,26 @@ export default function NewShop() {
         <table className={styles.menuArea}>
           <tbody>
             <tr className={styles.menuTableTr}>
-              <th className={styles.menuTableTh}>店舗名</th>
-              <td className={styles.menuTableTd}>GOOD-DAY 岡山新店舗</td>
+              <th className={styles.menuTableTh}>どんなことを学んできたか</th>
+              <td className={styles.menuTableTd}>デザイン・プログラミング(HTML,CSS,Java,JavaScriptなど)・広告運用・簿記・マーケティング・地域活性化活動など
+              <br />
+              <br />
+              私は学生時代美術部にも入らず、デザインの専門学校にも美術大学にも行っておりません。
+              <br />
+              独学でデザインを学んできました。
+              <br />
+              今後は独学でデザインを学びたい人の力になれるようなことをしたいとも考えています！</td>
             </tr>
           </tbody>
           <tbody>
             <tr className={styles.menuTableTr}>
-              <th className={styles.menuTableTh}>会員募集</th>
+              <th className={styles.menuTableTh}>なぜデザインが好きか</th>
               <td className={styles.menuTableTd}>応募受付中</td>
             </tr>
           </tbody>
           <tbody>
             <tr className={styles.menuTableTr}>
-              <th className={styles.menuTableTh}>応募方法</th>
+              <th className={styles.menuTableTh}>趣味</th>
               <td className={styles.menuTableTd}>
                 <div className={styles.flex}>
                   <div className={styles.nemuVertical}>
@@ -49,13 +56,13 @@ export default function NewShop() {
           </tbody>
           <tbody>
             <tr className={styles.menuTableTr}>
-              <th className={styles.menuTableTh}>Open日時</th>
+              <th className={styles.menuTableTh}>大切にしていること</th>
               <td className={styles.menuTableTd}>2022年11月を予定</td>
             </tr>
           </tbody>
           <tbody>
             <tr className={styles.menuTablLast}>
-              <th className={styles.menuTableTh}>所在地</th>
+              <th className={styles.menuTableTh}>人と違うなと思うところ</th>
               <td className={styles.menuTableTd}>
                 未定(決まり次第お知らせします)
               </td>

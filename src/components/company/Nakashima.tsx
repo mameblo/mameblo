@@ -7,7 +7,7 @@ export default function Nakashima() {
   return (
     <>
       <div id="Nakashima" className={styles.menu}>
-        <h2 className={styles.menuTitle}>倉敷中島店</h2>
+        <h2 className={styles.menuTitle}>ああああ</h2>
         <table className={styles.menuArea}>
           <tbody>
             <tr className={styles.menuTableTr}>
