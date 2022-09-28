@@ -15,9 +15,9 @@ export default function Footer() {
             <a>
               <Image
                 className=""
-                src={"/media/GOOD-DAY_mainLogo_05.png"}
+                src={"/media/mameblo_logo.png"}
                 objectFit="contain"
-                alt={"GOOD-DAY メインロゴ"}
+                alt={"メインロゴ"}
                 width={80}
                 height={80}
               />
@@ -74,13 +74,13 @@ export default function Footer() {
         <div className={styles.footerBrock}>
           <Link href={"/recruit"} passHref>
             <a>
-              <p className={styles.footerTitle}>Recruit</p>
+              <p className={styles.footerTitle}>Me</p>
             </a>
           </Link>
           <ul className={styles.footerUl}>
             <Link href={"/recruit/#RecruitmentSummary"} passHref>
               <a>
-                <li>募集概要</li>
+                <li>私について</li>
               </a>
             </Link>
             <Link href={"/recruit/#FAQ"} passHref>
@@ -132,7 +132,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <p className={styles.footerCopyLight}>&copy; 2022 OneStep inc.</p>
+      <p className={styles.footerCopyLight}>&copy; 2022 mameblo.</p>
     </footer>
   );
 }
