@@ -65,9 +65,12 @@ export default function Stylist({ stylist }: Props) {
       />
       <HamburgerMenu />
       <div className={styles.detailArea}>
+        <div>
+          <br></br>
+        </div>
         <Link href={"/stylist"} passHref>
           <a>
-            <h2 className={styles.detailMainTitle}>portfolio</h2>
+            <h2 className={styles.detailMainTitle}>Portfolio</h2>
           </a>
         </Link>
         <div className={styles.detailFlex}>
@@ -83,6 +86,15 @@ export default function Stylist({ stylist }: Props) {
           </div>
           <div className={styles.detailRight}>
             <div>
+            <div>
+              <br></br>
+            </div>
+            <div>
+              <br></br>
+            </div>
+            <div>
+              <br></br>
+            </div>
               <Link href={stylist.url} passHref>
                 <a>
                   <div className={styles.detailSubTitle}>{stylist.title}</div>
@@ -126,8 +138,14 @@ export default function Stylist({ stylist }: Props) {
                   );
                 })}
               </div> */}
+              
               {/* ここでstylistIdを認識して、各自のSNSメニューを表示する2 */}
               {/* <div>
+              <div
+            dangerouslySetInnerHTML={{
+              __html: `${stylist.body}`,
+            }}
+          />
                 {stylistIds.map((id) => {
                   return (
                     <div key={id}>
@@ -158,10 +176,26 @@ export default function Stylist({ stylist }: Props) {
               </div> */}
               <div>
                 {/* Prevent HTML tags from being output */}
+                <div className={styles.detailbody}>
+                {/* Prevent HTML tags from being output */}
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: `${stylist.subTitle}`,
+                    }}
+                  />
+                </div>
+                <div>
+                  <p>
+                    <br></br>
+                  </p>
+                </div>
+                <div>
+                  <br></br>
+                </div>
                 <div
-                  className={styles.detailProfile}
+                  className={styles.detailbody}
                   dangerouslySetInnerHTML={{
-                    __html: `${stylist.profile}`,
+                    __html: `${stylist.body}`,
                   }}
                 />
               </div>
@@ -175,14 +209,7 @@ export default function Stylist({ stylist }: Props) {
             </div>
           </div>
         </div>
-        <div className={styles.detailBody}>
-          {/* Prevent HTML tags from being output */}
-          <div
-            dangerouslySetInnerHTML={{
-              __html: `${stylist.body}`,
-            }}
-          />
-        </div>
+        
         {/* ここで各自のstyleを表示
         <h2 className={styles.detailMainTitle}>Hair Style</h2>
         <div className={styles.detailStyle}>
@@ -218,7 +245,7 @@ export default function Stylist({ stylist }: Props) {
           </div>
         </div> */}
         {/* ここでstylistIdを認識して、各自のメニューを表示します。 */}
-        <div>
+        {/* <div>
           {stylistIds.map((id) => {
             return (
               <div key={id}>
@@ -237,7 +264,7 @@ export default function Stylist({ stylist }: Props) {
               </div>
             );
           })}
-        </div>
+        </div> */}
         <p className={styles.menuDetail}>
         </p>
         <p className={styles.menuDetail}>
@@ -253,7 +280,7 @@ export default function Stylist({ stylist }: Props) {
           </Link>
         </div>
         {/* ここでstylistIdを認識して、各自のページネーションを表示(暫定適用) */}
-        <div>
+        {/* <div>
           {stylistIds.map((id) => {
             return (
               <div key={id}>
@@ -272,7 +299,7 @@ export default function Stylist({ stylist }: Props) {
               </div>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </>
   );

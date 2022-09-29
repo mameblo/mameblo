@@ -29,13 +29,11 @@ export default function Stylist({ stylists }: Props) {
       <HamburgerMenu />
       <div className={styles.mainHome}>
         <div className={styles.stylistArea}>
-          <h2 className={styles.stylistMainTitle}>Stylist</h2>
-          <div className={styles.stylistMainTitleText}>スタイリスト一覧</div>
+          <h2 className={styles.stylistMainTitle}>Portfolio</h2>
+          <div className={styles.stylistMainTitleText}>作品一覧</div>
           <div className={styles.stylistColumn}>
             {stylists.map((stylist) => (
               <div className={styles.stylistSingle} key={stylist.id}>
-                
-                  
                   <p>
                     <Image
                       src={stylist.eye_catch.url}
@@ -64,6 +62,11 @@ export default function Stylist({ stylists }: Props) {
           </div>
         </div>
       </div>
+      <p>
+        <br></br>
+        <br></br>
+        <br></br>
+      </p>
     </>
   );
 }
