@@ -67,7 +67,7 @@ export default function Stylist({ stylist }: Props) {
       <div className={styles.detailArea}>
         <Link href={"/stylist"} passHref>
           <a>
-            <h2 className={styles.detailMainTitle}>Stylist</h2>
+            <h2 className={styles.detailMainTitle}>portfolio</h2>
           </a>
         </Link>
         <div className={styles.detailFlex}>
@@ -77,8 +77,8 @@ export default function Stylist({ stylist }: Props) {
               src={stylist.eye_catch.url}
               objectFit="contain"
               alt={stylist.title + "の画像です"}
-              width={1000}
-              height={720}
+              width={500}
+              height={500}
             />
           </div>
           <div className={styles.detailRight}>
@@ -127,7 +127,7 @@ export default function Stylist({ stylist }: Props) {
                 })}
               </div> */}
               {/* ここでstylistIdを認識して、各自のSNSメニューを表示する2 */}
-              <div>
+              {/* <div>
                 {stylistIds.map((id) => {
                   return (
                     <div key={id}>
@@ -148,14 +148,14 @@ export default function Stylist({ stylist }: Props) {
                 })}
               </div>
               stylistId = [<KatayamaSNS />, <MikaSNS />
-              ,]
-              <div className={styles.tag}>
+              ,] */}
+              {/* <div className={styles.tag}>
                 {stylist.tag && (
                   <div className={styles.detailTag}>
                     <div className="">#{stylist.tag}</div>
                   </div>
                 )}
-              </div>
+              </div> */}
               <div>
                 {/* Prevent HTML tags from being output */}
                 <div
@@ -165,13 +165,13 @@ export default function Stylist({ stylist }: Props) {
                   }}
                 />
               </div>
-              <div className={styles.next}>
+              {/* <div className={styles.next}>
                 <Link href={stylist.url} passHref>
                   <a className={styles.nextInner}>
                     <span className={styles.nextInnerIn}>Web予約する</span>
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -183,7 +183,7 @@ export default function Stylist({ stylist }: Props) {
             }}
           />
         </div>
-        {/* ここで各自のstyleを表示 */}
+        {/* ここで各自のstyleを表示
         <h2 className={styles.detailMainTitle}>Hair Style</h2>
         <div className={styles.detailStyle}>
           <div className={styles.detailStyleImage}>
@@ -216,7 +216,7 @@ export default function Stylist({ stylist }: Props) {
               height={800}
             />
           </div>
-        </div>
+        </div> */}
         {/* ここでstylistIdを認識して、各自のメニューを表示します。 */}
         <div>
           {stylistIds.map((id) => {
@@ -239,15 +239,16 @@ export default function Stylist({ stylist }: Props) {
           })}
         </div>
         <p className={styles.menuDetail}>
-          ※所要時間につきましては、当日の予約状況により変動する可能性もございます。
         </p>
         <p className={styles.menuDetail}>
-          ※上記メニュー意外にもキャンペーン価格やセットメニューがございます。詳しい内容はスタイリストまでご連絡ください。
+          他の作品もございます。いろんな思いを込めておりますのでご覧ください
         </p>
+        <br></br>
+        <br></br>
         <div className={styles.next}>
-          <Link href={stylist.url} passHref>
+          <Link href={"/stylist"} passHref>
             <a className={styles.nextInner}>
-              <span className={styles.nextInnerIn}>Web予約する</span>
+              <span className={styles.nextInnerIn}>他の作品も見る</span>
             </a>
           </Link>
         </div>

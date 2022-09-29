@@ -34,12 +34,9 @@ export default function Stylist({ stylists }: Props) {
           <div className={styles.stylistColumn}>
             {stylists.map((stylist) => (
               <div className={styles.stylistSingle} key={stylist.id}>
-                <Link
-                  className={styles.stylistImage}
-                  href={`/stylist/${stylist.id}`}
-                  passHref
-                >
-                  <a>
+                
+                  
+                  <p>
                     <Image
                       src={stylist.eye_catch.url}
                       objectFit="contain"
@@ -47,20 +44,18 @@ export default function Stylist({ stylists }: Props) {
                       width={1000}
                       height={1000}
                     />
-                  </a>
-                </Link>
+                  </p>
+                
                 <div className={styles.stylistSubTitle}>
-                  <Link href={`/stylist/${stylist.id}`} passHref>
-                    <a>{stylist.title}</a>
-                  </Link>
+                  <a>{stylist.title}</a>
                 </div>
-                <div className={styles.stylistTag}>
+                {/* <div className={styles.stylistTag}>
                   {stylist.tag && <span className="">#{stylist.tag}</span>}
-                </div>
+                </div> */}
                 <div className={styles.next}>
-                  <Link href={stylist.url} passHref>
+                  <Link href={`/stylist/${stylist.id}`}>
                     <a className={styles.nextInner}>
-                      <span className={styles.nextInnerIn}>Web予約する</span>
+                      <span className={styles.nextInnerIn}>詳しくはこちら</span>
                     </a>
                   </Link>
                 </div>
