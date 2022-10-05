@@ -41,11 +41,6 @@ export default function HamburgerMenu() {
               </Link>
             </li>
             <li>
-              <Link href="/service" passHref>
-                <a>Service</a>
-              </Link>
-            </li>
-            <li>
               <Link href="/philosophy" passHref>
                 <a>Philosophy</a>
               </Link>
@@ -53,6 +48,11 @@ export default function HamburgerMenu() {
             <li>
               <Link href="/company" passHref>
                 <a>{me}</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/service" passHref>
+                <a>Price list</a>
               </Link>
             </li>
             <li className={styles.poyoyon}>
