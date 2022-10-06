@@ -34,16 +34,15 @@ export default function Stylist({ stylists }: Props) {
           <div className={styles.stylistColumn}>
             {stylists.map((stylist) => (
               <div className={styles.stylistSingle} key={stylist.id}>
-                  <p>
-                    <Image
-                      src={stylist.eye_catch.url}
-                      objectFit="contain"
-                      alt={stylist.title + "の画像です"}
-                      width={1000}
-                      height={1000}
-                    />
-                  </p>
-                
+                <p>
+                  <Image
+                    src={stylist.eye_catch.url}
+                    objectFit="contain"
+                    alt={stylist.title + "の画像です"}
+                    width={1000}
+                    height={1000}
+                  />
+                </p>
                 <div className={styles.stylistSubTitle}>
                   <a>{stylist.title}</a>
                 </div>

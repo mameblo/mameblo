@@ -21,14 +21,16 @@ export default function NewShop() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>どんなことを学んできたか</th>
-              <td className={styles.menuTableTd}>デザイン・プログラミング(HTML,CSS,Java,JavaScriptなど)・広告運用・簿記・マーケティング・地域活性化活動など
-              <br />
-              <br />
-              私は学生時代美術部にも入らず、デザインの専門学校にも美術大学にも行っておりません。
-              <br />
-              独学でデザインを学んできました。
-              <br />
-              今後は独学でデザインを学びたい人の力になれるようなことをしたいとも考えています！</td>
+              <td className={styles.menuTableTd}>
+                デザイン・プログラミング(HTML,CSS,Java,JavaScriptなど)・広告運用・簿記・マーケティング・地域活性化活動など
+                <br />
+                <br />
+                私は学生時代美術部にも入らず、デザインの専門学校にも美術大学にも行っておりません。
+                <br />
+                独学でデザインを学んできました。
+                <br />
+                今後は独学でデザインを学びたい人の力になれるようなことをしたいとも考えています！
+              </td>
             </tr>
           </tbody>
           <tbody>

@@ -86,15 +86,15 @@ export default function Stylist({ stylist }: Props) {
           </div>
           <div className={styles.detailRight}>
             <div>
-            <div>
-              <br></br>
-            </div>
-            <div>
-              <br></br>
-            </div>
-            <div>
-              <br></br>
-            </div>
+              <div>
+                <br></br>
+              </div>
+              <div>
+                <br></br>
+              </div>
+              <div>
+                <br></br>
+              </div>
               <Link href={stylist.url} passHref>
                 <a>
                   <div className={styles.detailSubTitle}>{stylist.title}</div>
@@ -138,7 +138,6 @@ export default function Stylist({ stylist }: Props) {
                   );
                 })}
               </div> */}
-              
               {/* ここでstylistIdを認識して、各自のSNSメニューを表示する2 */}
               {/* <div>
               <div
@@ -177,7 +176,7 @@ export default function Stylist({ stylist }: Props) {
               <div>
                 {/* Prevent HTML tags from being output */}
                 <div className={styles.detailbody}>
-                {/* Prevent HTML tags from being output */}
+                  {/* Prevent HTML tags from being output */}
                   <div
                     dangerouslySetInnerHTML={{
                       __html: `${stylist.subTitle}`,
@@ -209,7 +208,6 @@ export default function Stylist({ stylist }: Props) {
             </div>
           </div>
         </div>
-        
         {/* ここで各自のstyleを表示
         <h2 className={styles.detailMainTitle}>Hair Style</h2>
         <div className={styles.detailStyle}>
@@ -265,8 +263,7 @@ export default function Stylist({ stylist }: Props) {
             );
           })}
         </div> */}
-        <p className={styles.menuDetail}>
-        </p>
+        <p className={styles.menuDetail}></p>
         <p className={styles.menuDetail}>
           他の作品もございます。いろんな思いを込めておりますのでご覧ください
         </p>
