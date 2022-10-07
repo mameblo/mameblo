@@ -32,137 +32,156 @@ const Staffs: React.FC = () => {
         </div>
 
         <div>
-          <ul className={styles.flex}>
-            <Link href={"/stylist/hre_logo"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/logo.jpg"}
-                    objectFit="contain"
-                    alt={"John"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            <Link href={"/stylist/fukuya"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/namecard_00.jpg"}
-                    objectFit="contain"
-                    alt={"Dai"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            <Link href={"/stylist/hre"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/namecard_01.jpg"}
-                    objectFit="contain"
-                    alt={"Natsuki"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            <Link href={"/stylist/fukuya01"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/namecard_02.jpg"}
-                    objectFit="contain"
-                    alt={"Nozomi"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
-            <Link href={"/stylist/ticket00"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/ticket00.jpg"}
-                    objectFit="contain"
-                    alt={"Mika"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            <Link href={"/stylist/ticket01"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/ticket01.jpg"}
-                    objectFit="contain"
-                    alt={"Katayama"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
+          <ul>
+            <ul className={styles.flex}>
+              <Link href={"/stylist/fukuya"}>
+                <a>
+                  <li className={styles.stylistImage}>
+                    <Image
+                      className={styles.stylistImageHover}
+                      src={"/media/namecard_00.jpg"}
+                      objectFit="contain"
+                      alt={"Dai"}
+                      width={240}
+                      height={240}
+                    />
+                  </li>
+                </a>
+              </Link>
+              <Link href={"/stylist/hre"}>
+                <a>
+                  <li className={styles.stylistImage}>
+                    <Image
+                      className={styles.stylistImageHover}
+                      src={"/media/namecard_01.jpg"}
+                      objectFit="contain"
+                      alt={"Natsuki"}
+                      width={240}
+                      height={240}
+                    />
+                  </li>
+                </a>
+              </Link>
+              <Link href={"/stylist/fukuya01"}>
+                <a>
+                  <li className={styles.stylistImage}>
+                    <Image
+                      className={styles.stylistImageHover}
+                      src={"/media/namecard_02.jpg"}
+                      objectFit="contain"
+                      alt={"Nozomi"}
+                      width={240}
+                      height={240}
+                    />
+                  </li>
+                </a>
+              </Link>
+            </ul>
           </ul>
-          <ul className={styles.flex}>
-            <Link href={"/stylist/flyer00"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/flyer03.jpg"}
-                    objectFit="contain"
-                    alt={"John"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            <Link href={"/stylist/flyer01"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/flyer04.jpg"}
-                    objectFit="contain"
-                    alt={"Dai"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            <Link href={"/stylist/flyer02"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/flyer05.jpg"}
-                    objectFit="contain"
-                    alt={"Natsuki"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
-            </Link>
-            <Link href={"/stylist/flyer03"}>
+            <ul>
+              <ul className={styles.flex}>
+                <Link href={"/stylist/hre_logo"}>
+                  <a>
+                    <li className={styles.stylistImage}>
+                      <Image
+                        className={styles.stylistImageHover}
+                        src={"/media/logo.jpg"}
+                        objectFit="contain"
+                        alt={"John"}
+                        width={240}
+                        height={240}
+                      />
+                    </li>
+                  </a>
+                </Link>
+                {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
+                <Link href={"/stylist/ticket00"}>
+                  <a>
+                    <li className={styles.stylistImage}>
+                      <Image
+                        className={styles.stylistImageHover}
+                        src={"/media/ticket00.jpg"}
+                        objectFit="contain"
+                        alt={"Mika"}
+                        width={240}
+                        height={240}
+                      />
+                    </li>
+                  </a>
+                </Link>
+                <Link href={"/stylist/ticket01"}>
+                  <a>
+                    <li className={styles.stylistImage}>
+                      <Image
+                        className={styles.stylistImageHover}
+                        src={"/media/ticket01.jpg"}
+                        objectFit="contain"
+                        alt={"Katayama"}
+                        width={240}
+                        height={240}
+                      />
+                    </li>
+                  </a>
+                </Link>
+              </ul>
+            </ul>
+            <ul>
+              <ul className={styles.flex}>
+                <Link href={"/stylist/flyer00"}>
+                  <a>
+                    <li className={styles.stylistImage}>
+                      <Image
+                        className={styles.stylistImageHover}
+                        src={"/media/flyer03.jpg"}
+                        objectFit="contain"
+                        alt={"John"}
+                        width={240}
+                        height={240}
+                      />
+                    </li>
+                  </a>
+                </Link>
+                <Link href={"/stylist/flyer01"}>
+                  <a>
+                    <li className={styles.stylistImage}>
+                      <Image
+                        className={styles.stylistImageHover}
+                        src={"/media/flyer04.jpg"}
+                        objectFit="contain"
+                        alt={"Dai"}
+                        width={240}
+                        height={240}
+                      />
+                    </li>
+                  </a>
+                </Link>
+                <Link href={"/stylist/flyer02"}>
+                  <a>
+                    <li className={styles.stylistImage}>
+                      <Image
+                        className={styles.stylistImageHover}
+                        src={"/media/flyer05.jpg"}
+                        objectFit="contain"
+                        alt={"Natsuki"}
+                        width={240}
+                        height={240}
+                      />
+                    </li>
+                  </a>
+                </Link>
+              </ul>
+              <p>
+                <br></br>
+                <br></br>
+              </p>
+              <div className={styles.next}>
+          <Link href={"/stylist"} passHref>
+            <a className={styles.nextInner}>
+              <span className={styles.nextInnerIn}>他の作品も見る</span>
+            </a>
+          </Link>
+         </div>
+            {/* <Link href={"/stylist/flyer03"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -177,7 +196,7 @@ const Staffs: React.FC = () => {
               </a>
             </Link>
             {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
-            <Link href={"/stylist/flyer04"}>
+            {/*<Link href={"/stylist/flyer04"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -264,7 +283,7 @@ const Staffs: React.FC = () => {
               </a>
             </Link>
             {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
-            <Link href={"/stylist/slider04"}>
+            {/*<Link href={"/stylist/slider04"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -351,7 +370,7 @@ const Staffs: React.FC = () => {
               </a>
             </Link>
             {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
-            <Link href={"/stylist/slider10"}>
+            {/*<Link href={"/stylist/slider10"}>
               <a>
                 <li className={styles.stylistImage}>
                   <Image
@@ -378,7 +397,7 @@ const Staffs: React.FC = () => {
                   />
                 </li>
               </a>
-            </Link>
+            </Link>*/}
           </ul>
         </div>
       </div>

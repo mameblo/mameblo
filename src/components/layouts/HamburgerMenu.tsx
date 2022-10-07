@@ -45,6 +45,11 @@ export default function HamburgerMenu() {
                 <a>Philosophy</a>
               </Link>
             </li>
+            {/* <li>
+              <Link href="/illustrater" passHref>
+                <a>illust</a>
+              </Link>
+            </li> */}
             <li>
               <Link href="/company" passHref>
                 <a>{me}</a>

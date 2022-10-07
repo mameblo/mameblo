@@ -9,10 +9,10 @@ import styles from "../styles/Stylist/Stylist.module.scss";
 import HamburgerMenu from "../components/layouts/HamburgerMenu";
 
 type Props = {
-  stylists: Array<Stylist>;
+  illustrater: Array<Stylist>;
 };
 
-export default function Stylist({ stylists }: Props) {
+export default function Stylist({ illustrater }: Props) {
   return (
     <>
       <SEO
@@ -29,28 +29,28 @@ export default function Stylist({ stylists }: Props) {
       <HamburgerMenu />
       <div className={styles.mainHome}>
         <div className={styles.stylistArea}>
-          <h2 className={styles.stylistMainTitle}>Portfolio</h2>
-          <div className={styles.stylistMainTitleText}>作品一覧</div>
+          <h2 className={styles.stylistMainTitle}>illust</h2>
+          <div className={styles.stylistMainTitleText}>イラスト一覧</div>
           <div className={styles.stylistColumn}>
-            {stylists.map((stylist) => (
-              <div className={styles.stylistSingle} key={stylist.id}>
+            {illustrater.map((illusts) => (
+              <div className={styles.stylistSingle} key={illusts.id}>
                 <p>
                   <Image
-                    src={stylist.eye_catch.url}
+                    src={illusts.eye_catch.url}
                     objectFit="contain"
-                    alt={stylist.title + "の画像です"}
+                    alt={illusts.title + "の画像です"}
                     width={400}
                     height={400}
                   />
                 </p>
-                <div className={styles.stylistSubTitle}>
-                  <a>{stylist.title}</a>
-                </div>
+                {/* <div className={styles.stylistSubTitle}>
+                  <a>{illusts.title}</a>
+                </div> */}
                 {/* <div className={styles.stylistTag}>
                   {stylist.tag && <span className="">#{stylist.tag}</span>}
                 </div> */}
                 <div className={styles.next}>
-                  <Link href={`/stylist/${stylist.id}`}>
+                  <Link href={`/stylist/${illusts.id}`}>
                     <a className={styles.nextInner}>
                       <span className={styles.nextInnerIn}>詳しくはこちら</span>
                     </a>
@@ -73,13 +73,13 @@ export default function Stylist({ stylists }: Props) {
 // データをテンプレートに受け渡す部分の処理を記述します
 export const getStaticProps = async () => {
   const data = await client.get({
-    endpoint: "stylists",
+    endpoint: "banner",
     queries: { limit: 100, offset: 0 },
   });
 
   return {
     props: {
-      stylists: data.contents,
+      illusts: data.contents,
     },
   };
 };

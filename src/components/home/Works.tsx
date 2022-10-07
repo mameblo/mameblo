@@ -6,15 +6,15 @@ const Works: React.FC = () => {
   return (
     <>
       <div id="Works" className={styles.main}>
-        <h2 className={styles.featuresMainTitle}>GOOD-DAYで働く</h2>
-        <p className={styles.featuresMainSubTitle}>スタイリストさんへ</p>
+        <h2 className={styles.featuresMainTitle}>デザインへのこだわり</h2>
+        {/* <p className={styles.featuresMainSubTitle}>スタイリストさんへ</p> */}
         <>
           <ul className={styles.flex}>
             <li className={styles.stylistImage}>
               <Image
                 src={"/media/Stylist_000.png"}
                 objectFit="contain"
-                alt={"グッディの特徴その1"}
+                alt={"デザインへのこだわりその1"}
                 width={240}
                 height={240}
               />
@@ -23,7 +23,7 @@ const Works: React.FC = () => {
               <Image
                 src={"/media/Stylist_01.png"}
                 objectFit="contain"
-                alt={"グッディの特徴その2"}
+                alt={"デザインへのこだわりその2"}
                 width={240}
                 height={240}
               />
@@ -32,7 +32,7 @@ const Works: React.FC = () => {
               <Image
                 src={"/media/Stylist_02.png"}
                 objectFit="contain"
-                alt={"グッディの特徴その3"}
+                alt={"デザインへのこだわりその3"}
                 width={240}
                 height={240}
               />
@@ -40,7 +40,7 @@ const Works: React.FC = () => {
           </ul>
         </>
         <>
-          <ul className={styles.flex}>
+          {/* <ul className={styles.flex}>
             <li className={styles.stylistImage}>
               <Image
                 src={"/media/Stylist_03.png"}
@@ -68,12 +68,12 @@ const Works: React.FC = () => {
                 height={240}
               />
             </li>
-          </ul>
+          </ul> */}
         </>
         <div className={styles.next}>
-          <Link href={"/recruit"} passHref>
+          <Link href={"/philosophy"} passHref>
             <a className={styles.nextInner}>
-              <span className={styles.nextInnerIn}>募集条件を見る</span>
+              <span className={styles.nextInnerIn}>詳しくみる</span>
             </a>
           </Link>
         </div>

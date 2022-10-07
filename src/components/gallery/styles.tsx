@@ -22,17 +22,31 @@ const Styles: React.FC = () => {
         <h2 className={styles.featuresMainTitle}>Illust</h2>
         <p className={styles.featuresMainSubTitle}>ゆるかわイラスト集</p>
         <NamiStyles />
-        <MahoStyles />
+        {/* <MahoStyles /> */}
         <YukaStyles />
         <MaiStyles />
+        <p>
+          <br></br>
+        </p>
+        <div className={styles.next}>
+          <Link href={"https://instagram.com/_mameko.me_?igshid=YmMyMTA2M2Y="} passHref>
+            <a className={styles.nextInner}>
+              <span className={styles.nextInnerIn}>他のイラストも見る</span>
+            </a>
+          </Link>
+        </div>
+        <p>
+          <br></br>
+          <br></br>
+        </p>
         {/* <IkemotoStyles /> */}
-        <FujiiStyles />
+        {/* <FujiiStyles />
         <JohnStyles />
         <DaiStyles />
         <NatsukiStyles />
         <NozomiStyles />
         <MikaStyles />
-        <KatayamaStyles />
+        <KatayamaStyles /> */}
         {/* <div className={styles.next}>
           <Link href={"/recruit"} passHref>
             <a className={styles.nextInner}>

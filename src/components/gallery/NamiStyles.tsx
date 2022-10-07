@@ -9,7 +9,6 @@ const NamiStyles: React.FC = () => {
   return (
     <>
       <ul className={styles.flex}>
-        <Link href={"/stylist/nami"}>
           <a>
             <li className={styles.stylistImage}>
               <Image
@@ -22,8 +21,6 @@ const NamiStyles: React.FC = () => {
               />
             </li>
           </a>
-        </Link>
-        <Link href={"/stylist/nami"}>
           <a>
             <li className={styles.stylistImage}>
               <Image
@@ -36,8 +33,6 @@ const NamiStyles: React.FC = () => {
               />
             </li>
           </a>
-        </Link>
-        <Link href={"/stylist/nami"}>
           <a>
             <li className={styles.stylistImage}>
               <Image
@@ -50,7 +45,6 @@ const NamiStyles: React.FC = () => {
               />
             </li>
           </a>
-        </Link>
       </ul>
     </>
   );

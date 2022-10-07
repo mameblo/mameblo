@@ -5,6 +5,7 @@ import { client } from "../libs/client";
 import SEO from "../components/layouts/SEO";
 import Works from "../components/home/Works";
 import Staffs from "../components/staff/Staffs";
+import Illust from "../components/staff/Illust";
 import styles from "../styles/Home.module.scss";
 import Styles from "../components/gallery/styles";
 import type { Article } from "../types/article";
@@ -34,6 +35,9 @@ export default function Home({ articles }: Props) {
       <HamburgerMenu />
       <div className={styles.mainHome}>
         <TopCarousel />
+        <Staffs />
+        {/* <Illust /> */}
+        <Styles />
         <div className={styles.articleArea}>
           <h2 className={styles.articleMainTitle}>Blog</h2>
           {articles.map((article) => (
@@ -79,11 +83,9 @@ export default function Home({ articles }: Props) {
             </div>
           ))}
         </div>
-        <Staffs />
-        <Styles />
-        <MakeFriends />
+        {/* <MakeFriends /> */}
         <Works />
-        <NakashimaShopInfo />
+        {/* <NakashimaShopInfo /> */}
       </div>
     </>
   );
