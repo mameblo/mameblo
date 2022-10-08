@@ -12,7 +12,7 @@ const Works: React.FC = () => {
           <ul className={styles.flex}>
             <li className={styles.stylistImage}>
               <Image
-                src={"/media/Stylist_000.png"}
+                src={"/media/icon1_00.png"}
                 objectFit="contain"
                 alt={"デザインへのこだわりその1"}
                 width={240}
@@ -21,7 +21,7 @@ const Works: React.FC = () => {
             </li>
             <li className={styles.stylistImage}>
               <Image
-                src={"/media/Stylist_01.png"}
+                src={"/media/icon1_01.png"}
                 objectFit="contain"
                 alt={"デザインへのこだわりその2"}
                 width={240}
@@ -30,7 +30,7 @@ const Works: React.FC = () => {
             </li>
             <li className={styles.stylistImage}>
               <Image
-                src={"/media/Stylist_02.png"}
+                src={"/media/icon1_02.png"}
                 objectFit="contain"
                 alt={"デザインへのこだわりその3"}
                 width={240}

@@ -6,7 +6,7 @@ const ToStylist: React.FC = () => {
   return (
     <>
       <div id="ToStylist" className={styles.main}>
-        <h2 className={styles.featuresMainTitle}>GOOD-DAYで働く</h2>
+        <h2 className={styles.featuresMainTitle}>デザインへのこだわりについて</h2>
         <p className={styles.featuresMainSubTitle}>スタイリストさんへ</p>
         <>
           <ul className={styles.flex}>

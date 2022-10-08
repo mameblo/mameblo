@@ -6,8 +6,8 @@ const Customer: React.FC = () => {
   return (
     <>
       <div id="Customer" className={styles.main}>
-        <h2 className={styles.featuresMainTitle}>GOOD-DAYのこだわり</h2>
-        <p className={styles.featuresMainSubTitle}>お客様へ</p>
+        {/* <h2 className={styles.featuresMainTitle}>お客様へ</h2>
+        <p className={styles.featuresMainSubTitle}>デザイン料金設定について</p> */}
         <>
           <ul className={styles.flex}>
             <li>
@@ -18,8 +18,8 @@ const Customer: React.FC = () => {
                 width={240}
                 height={240}
               />
-              <p className={styles.fontBord}>完全個別対応</p>
-              <p>一人のスタイリストが全て担当。</p>
+              <p className={styles.fontBord}>A4チラシ片面</p>
+              <p>¥30,000〜</p>
             </li>
             <li>
               <Image
@@ -29,8 +29,8 @@ const Customer: React.FC = () => {
                 width={240}
                 height={240}
               />
-              <p className={styles.fontBord}>待ち時間ゼロ</p>
-              <p>完全予約制だからスムーズにご案内。</p>
+              <p className={styles.fontBord}>名刺デザイン</p>
+              <p>¥25,000〜</p>
             </li>
           </ul>
         </>
@@ -44,9 +44,8 @@ const Customer: React.FC = () => {
                 width={240}
                 height={240}
               />
-              <p className={styles.fontBord}>営業時間長め</p>
-              <p>遅い時間までやってます。</p>
-              <p>(詳しくはお問合せください)</p>
+              <p className={styles.fontBord}>ロゴ制作</p>
+              <p>¥50,000〜</p>
             </li>
             <li>
               <Image
@@ -56,12 +55,12 @@ const Customer: React.FC = () => {
                 width={240}
                 height={240}
               />
-              <p className={styles.fontBord}>全て個室</p>
-              <p>お部屋は半個室・個室で安心です。</p>
+              <p className={styles.fontBord}>バナー・スライダー画像</p>
+              <p>1枚 ¥7,000〜(サイズにより変動あり)</p>
             </li>
           </ul>
         </>
-        <>
+        {/* <>
           <ul className={styles.flex}>
             <li>
               <Image
@@ -86,17 +85,23 @@ const Customer: React.FC = () => {
               <p>1週間以内のお直し無料です。</p>
             </li>
           </ul>
-        </>
+        </> */}
+        <p>
+            <br></br>
+          </p>
         <div className={styles.next}>
           <Link
             href={"https://sam004.salonanswer.com/sas/reserve/goodday/staff"}
             passHref
           >
             <a className={styles.nextInner}>
-              <span className={styles.nextInnerIn}>Web予約はこちら</span>
+              <span className={styles.nextInnerIn}>お問い合わせ・ご連絡はこちら</span>
             </a>
           </Link>
         </div>
+        <p>
+          <br></br>
+        </p>
       </div>
     </>
   );

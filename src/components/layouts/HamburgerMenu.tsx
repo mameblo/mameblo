@@ -50,14 +50,14 @@ export default function HamburgerMenu() {
                 <a>illust</a>
               </Link>
             </li> */}
-            <li>
+            {/* <li>
               <Link href="/company" passHref>
                 <a>{me}</a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/service" passHref>
-                <a>Price list</a>
+                <a>Service</a>
               </Link>
             </li>
             <li className={styles.poyoyon}>
