@@ -6,7 +6,7 @@ const Works: React.FC = () => {
   return (
     <>
       <div id="Works" className={styles.main}>
-        <h2 className={styles.featuresMainTitle}>デザインへのこだわり</h2>
+        <h2 className={styles.featuresMainTitle}>デザインへのこだわりiii</h2>
         {/* <p className={styles.featuresMainSubTitle}>スタイリストさんへ</p> */}
         <>
           <ul className={styles.flex}>
