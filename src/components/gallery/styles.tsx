@@ -29,7 +29,10 @@ const Styles: React.FC = () => {
           <br></br>
         </p>
         <div className={styles.next}>
-          <Link href={"https://instagram.com/_mameko.me_?igshid=YmMyMTA2M2Y="} passHref>
+          <Link
+            href={"https://instagram.com/_mameko.me_?igshid=YmMyMTA2M2Y="}
+            passHref
+          >
             <a className={styles.nextInner}>
               <span className={styles.nextInnerIn}>他のイラストも見る</span>
             </a>

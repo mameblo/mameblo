@@ -9,42 +9,42 @@ const NamiStyles: React.FC = () => {
   return (
     <>
       <ul className={styles.flex}>
-          <a>
-            <li className={styles.stylistImage}>
-              <Image
-                className={styles.stylistImageHover}
-                src={"/styles/illust01.jpg"}
-                objectFit="contain"
-                alt={stylistName + "のスタイル1です。"}
-                width={178}
-                height={240}
-              />
-            </li>
-          </a>
-          <a>
-            <li className={styles.stylistImage}>
-              <Image
-                className={styles.stylistImageHover}
-                src={"/styles/illust01_2.jpg"}
-                objectFit="contain"
-                alt={stylistName + "のスタイル2です。"}
-                width={178}
-                height={240}
-              />
-            </li>
-          </a>
-          <a>
-            <li className={styles.stylistImage}>
-              <Image
-                className={styles.stylistImageHover}
-                src={"/styles/illust01_3.jpg"}
-                objectFit="contain"
-                alt={stylistName + "のスタイル3です。"}
-                width={178}
-                height={240}
-              />
-            </li>
-          </a>
+        <a>
+          <li className={styles.stylistImage}>
+            <Image
+              className={styles.stylistImageHover}
+              src={"/styles/illust01.jpg"}
+              objectFit="contain"
+              alt={stylistName + "のスタイル1です。"}
+              width={178}
+              height={240}
+            />
+          </li>
+        </a>
+        <a>
+          <li className={styles.stylistImage}>
+            <Image
+              className={styles.stylistImageHover}
+              src={"/styles/illust01_2.jpg"}
+              objectFit="contain"
+              alt={stylistName + "のスタイル2です。"}
+              width={178}
+              height={240}
+            />
+          </li>
+        </a>
+        <a>
+          <li className={styles.stylistImage}>
+            <Image
+              className={styles.stylistImageHover}
+              src={"/styles/illust01_3.jpg"}
+              objectFit="contain"
+              alt={stylistName + "のスタイル3です。"}
+              width={178}
+              height={240}
+            />
+          </li>
+        </a>
       </ul>
     </>
   );

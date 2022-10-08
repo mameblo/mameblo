@@ -78,53 +78,53 @@ const Staffs: React.FC = () => {
               </Link>
             </ul>
           </ul>
-            <ul>
-              <ul className={styles.flex}>
-                <Link href={"/stylist/fukuya01"}>
-                  <a>
-                    <li className={styles.stylistImage}>
-                      <Image
-                        className={styles.stylistImageHover}
-                        src={"/media/namecard_02.jpg"}
-                        objectFit="contain"
-                        alt={"Nozomi"}
-                        width={240}
-                        height={240}
-                      />
-                    </li>
-                  </a>
-                </Link>
-                {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
-                <Link href={"/stylist/ticket00"}>
-                  <a>
-                    <li className={styles.stylistImage}>
-                      <Image
-                        className={styles.stylistImageHover}
-                        src={"/media/ticket00.jpg"}
-                        objectFit="contain"
-                        alt={"Mika"}
-                        width={240}
-                        height={240}
-                      />
-                    </li>
-                  </a>
-                </Link>
-                <Link href={"/stylist/ticket01"}>
-                  <a>
-                    <li className={styles.stylistImage}>
-                      <Image
-                        className={styles.stylistImageHover}
-                        src={"/media/ticket01.jpg"}
-                        objectFit="contain"
-                        alt={"Katayama"}
-                        width={240}
-                        height={240}
-                      />
-                    </li>
-                  </a>
-                </Link>
-              </ul>
+          <ul>
+            <ul className={styles.flex}>
+              <Link href={"/stylist/fukuya01"}>
+                <a>
+                  <li className={styles.stylistImage}>
+                    <Image
+                      className={styles.stylistImageHover}
+                      src={"/media/namecard_02.jpg"}
+                      objectFit="contain"
+                      alt={"Nozomi"}
+                      width={240}
+                      height={240}
+                    />
+                  </li>
+                </a>
+              </Link>
+              {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
+              <Link href={"/stylist/ticket00"}>
+                <a>
+                  <li className={styles.stylistImage}>
+                    <Image
+                      className={styles.stylistImageHover}
+                      src={"/media/ticket00.jpg"}
+                      objectFit="contain"
+                      alt={"Mika"}
+                      width={240}
+                      height={240}
+                    />
+                  </li>
+                </a>
+              </Link>
+              <Link href={"/stylist/ticket01"}>
+                <a>
+                  <li className={styles.stylistImage}>
+                    <Image
+                      className={styles.stylistImageHover}
+                      src={"/media/ticket01.jpg"}
+                      objectFit="contain"
+                      alt={"Katayama"}
+                      width={240}
+                      height={240}
+                    />
+                  </li>
+                </a>
+              </Link>
             </ul>
+          </ul>
           <ul>
             <ul className={styles.flex}>
               <Link href={"/stylist/flyer00"}>
@@ -172,12 +172,12 @@ const Staffs: React.FC = () => {
             </ul>
           </ul>
           <div className={styles.next}>
-          <Link href={"/illustrater"} passHref>
-            <a className={styles.nextInner}>
-              <span className={styles.nextInnerIn}>他のイラストも見る</span>
-            </a>
-          </Link>
-         </div>
+            <Link href={"/illustrater"} passHref>
+              <a className={styles.nextInner}>
+                <span className={styles.nextInnerIn}>他のイラストも見る</span>
+              </a>
+            </Link>
+          </div>
           {/* <ul>
             <ul className={styles.flex}>
               <Link href={"/stylist/flyer03"}>
@@ -195,7 +195,7 @@ const Staffs: React.FC = () => {
               </a>
               </Link>
               {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
-              {/*<Link href={"/stylist/flyer04"}>
+          {/*<Link href={"/stylist/flyer04"}>
                 <a>
                   <li className={styles.stylistImage}>
                     <Image
@@ -288,8 +288,8 @@ const Staffs: React.FC = () => {
                 </a>
               </Link>
               {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
-              {/*<Link href={"/stylist/slider04"}>
-                <a>
+          {/*<Link href={"/stylist/slider04"}>
+            <a>
                   <li className={styles.stylistImage}>
                     <Image
                       className={styles.stylistImageHover}
@@ -378,9 +378,9 @@ const Staffs: React.FC = () => {
                   </li>
                 </a>
               </Link>
-              {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
-              {/*<Link href={"/stylist/slider10"}>
-                <a>
+          {/* test00の部分はmicrocms側のコンテンツidと一致させる必要がある */}
+          {/*<Link href={"/stylist/slider10"}>
+            <a>
                   <li className={styles.stylistImage}>
                     <Image
                       className={styles.stylistImageHover}
