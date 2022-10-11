@@ -7,7 +7,7 @@ import Works from "../components/home/Works";
 import Staffs from "../components/staff/Staffs";
 import Illust from "../components/staff/Illust";
 import styles from "../styles/Home.module.scss";
-import Styles from "../components/gallery/styles";
+import LightBox from "../components/gallery/LightBox";
 import type { Article } from "../types/article";
 import TopCarousel from "../components/home/TopCarousel";
 import MakeFriends from "../components/home/MakeFriends";
@@ -37,7 +37,7 @@ export default function Home({ articles }: Props) {
         <TopCarousel />
         <Staffs />
         {/* <Illust /> */}
-        <Styles />
+        <LightBox />
         <div className={styles.articleArea}>
           <h2 className={styles.articleMainTitle}>Blog</h2>
           {articles.map((article) => (
