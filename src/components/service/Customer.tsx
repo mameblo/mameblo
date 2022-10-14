@@ -59,6 +59,13 @@ const Customer: React.FC = () => {
               <p>1枚 ¥7,000〜(サイズにより変動あり)</p>
             </li>
           </ul>
+          <div className={styles.customerP}>
+            <p>上記は一例です。その他にもデザインでお力になれることはたくさんあるかと思います。</p>
+            <br></br>
+            <p>『素敵なものを作りたい』という思いを一緒に共有しませんか？</p>
+            <br></br>
+            <p>詳しい内容などについてはまずはご連絡ください。</p>
+          </div>
         </>
         {/* <>
           <ul className={styles.flex}>

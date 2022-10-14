@@ -52,6 +52,12 @@ export default function LightBox() {
               </div>
             ))}
           </div>
+          <div>
+            <br/>
+          </div>
+          <div>
+            <br/>
+          </div>
           <div className={styles.next}>
                   <Link href={"https://instagram.com/_mameko.me_?igshid=YmMyMTA2M2Y="}>
                     <a className={styles.nextInner}>

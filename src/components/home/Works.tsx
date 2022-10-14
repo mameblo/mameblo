@@ -6,8 +6,8 @@ const Works: React.FC = () => {
   return (
     <>
       <div id="Works" className={styles.main}>
-        <h2 className={styles.featuresMainTitle}>デザインへのこだわりiii</h2>
-        {/* <p className={styles.featuresMainSubTitle}>スタイリストさんへ</p> */}
+        <h2 className={styles.featuresMainTitle}>thought</h2>
+        <p className={styles.featuresMainSubTitle}>デザインへのこだわり</p>
         <>
           <ul className={styles.flex}>
             <li className={styles.stylistImage}>

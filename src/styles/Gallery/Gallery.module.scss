@@ -7,7 +7,7 @@
     margin-top: 7.8rem;
     margin-bottom: 0;
     padding: 1rem;
-    width: 100%;
+    width: 60%;
   }
 }
 // .mainHome {
@@ -20,9 +20,10 @@
 
  .lightBoxFlex {
   display: flex;
+  margin: auto;
   justify-content: space-around;
   padding: 5rem 0;
-  width: 100%;
+  width: 70%;
 
   @media (max-width: 767px) {
     display: block;
@@ -54,7 +55,7 @@
   border: solid 0.1px #eeeeee;
   border-radius: 8px;
   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
-  // width: calc(25% - 32px);
+  // width: calc(25% - 20%);
   height: auto;
   margin: 2rem;
   padding: 0;

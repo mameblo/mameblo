@@ -11,7 +11,7 @@ const Overview: React.FC = () => {
       <div className={styles.main}>
         <h2 className={styles.featuresMainTitle}>Serviced</h2>
         <p className={styles.featuresMainSubTitle}>〜お客様へ〜</p>
-        <h2 className={styles.featuresMainTitle}>デザイン料金設定について</h2>
+        <h2 className={styles.featuresMainTitle}>デザインのご依頼について</h2>
         <>
           {/* <ToStylist /> */}
           <Customer />

@@ -46,13 +46,14 @@
   }
 }
 .articleArea {
-  
+  width: 90%;
+  margin: auto;
 }
 .articleMainTitle {
   font-size: 32px;
   font-weight: bold;
-  margin: 2rem auto;
-  padding-bottom: 2rem;
+  margin: 1rem auto;
+  // padding-bottom: 2rem;
   text-align: center;
   width: 80%;
 }
@@ -93,9 +94,9 @@
  }
 }
 .articleSubTitle {
-  font-size:24px;
-  font-weight: bold;
-  margin-bottom: 1rem;
+  margin: 0 0 3rem 0;
+  text-align: center;
+  padding-bottom: 2rem;
 
   @media screen and (max-width:767px) {
     text-align: center;
