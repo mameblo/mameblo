@@ -10,71 +10,56 @@ import Lightbox from "lightbox-react";
 import "lightbox-react/style.css";
 
 export default function LightBox() {
-  const images3 = [
-    "../styles/illust01_2.jpg",
-    "../styles/illust01_2.jpg",
-    "../styles/illust01_2.jpg",
-  ];
-  const images2 = [
-    "../styles/illust01_2.jpg",
-    "../styles/illust01_2.jpg",
-    "../styles/illust01_2.jpg",
-  ];
+
   const images1 = [
-    "../styles/illust01_2.jpg",
-    "../styles/illust01_2.jpg",
-    "../styles/illust01_2.jpg",
+    "../styles/illust07_1.jpg",
+    "../styles/illust07-2.jpg",
+    "../styles/illust07-3.jpg",
+    "../styles/illust01_1.jpg",
+    "../styles/illust01_4.jpg",
+    "../styles/illust01.jpg",
+    "../styles/illust034.jpg",
+    "../styles/illust03_4.jpg",
+    "../styles/illust03_5.jpg",
   ];
-  const title = ["Azura", "Ingun Black-Briar", "The Blue Palace", "Cicero"];
+  const title = ["スケートで走るおんなのこver.1", "スケートで走るおんなのこver.2", "スケートで走るおんなのこver.3", "ねむたいちゃんver.1","ねむたいちゃんver.2","ねむたいちゃんver.3","みんな違ってみんないい。ver.1","みんな違ってみんないい。ver.2","みんな違ってみんないい。ver.3"];
   
   const [photoIndex, setIndex] = useState(0);
   const [isOpen, setisOpen] = useState(false);
   return (
     <>
-       <div>
+      <div>
       <main className="">
-        <h3>lightbox-reactのDEMO</h3>
-        <div className={styles.lightBoxFlex}>
-          {images3.map((image, index) => (
-            <img
-              src={`/img/${image}`}
-              alt={image}
-              width="200px"
-              onClick={() => {
-                setisOpen(true), setIndex(index);
-              }}
-              key={index}
-              className=""
-            />
-          ))}
+      <div className={styles.lightBoxFlex}>
+        <div className={styles.stylistArea}>
+        <div>
+          <h2 className={styles.mainTitle}>illust</h2>
+          <p className={styles.mainSubTitle}>ゆるかわイラスト集</p>
         </div>
-        <div className={styles.lightBoxFlex}>
-          {images2.map((image, index) => (
-            <img
-              src={`/img/${image}`}
-              alt={image}
-              width="200px"
-              onClick={() => {
-                setisOpen(true), setIndex(index);
-              }}
-              key={index}
-              className=""
-            />
-          ))}
-        </div>
-        <div className={styles.lightBoxFlex}>
-          {images1.map((image, index) => (
-            <img
-              src={`/img/${image}`}
-              alt={image}
-              width="200px"
-              onClick={() => {
-                setisOpen(true), setIndex(index);
-              }}
-              key={index}
-              className=""
-            />
-          ))}
+          <div className={styles.illustColumn}>
+            {images1.map((image, index) => (
+              <div className={styles.illustSingle}>
+              <img
+                src={`/img/${image}`}
+                alt={image}
+                width="200px"
+                onClick={() => {
+                  setisOpen(true), setIndex(index);
+                }}
+                key={index}
+                className=""
+              />
+              </div>
+            ))}
+          </div>
+          <div className={styles.next}>
+                  <Link href={"https://instagram.com/_mameko.me_?igshid=YmMyMTA2M2Y="}>
+                    <a className={styles.nextInner}>
+                      <span className={styles.nextInnerIn}>他のイラストはこちら</span>
+                    </a>
+                  </Link>
+                </div>
+          </div>
         </div>
 
         {isOpen && (
