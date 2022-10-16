@@ -16,7 +16,7 @@ export default function Stylist({ stylists }: Props) {
   return (
     <>
       <SEO
-        title={"GOOD-DAYスタイリスト一覧|岡山県倉敷市の個室シェアサロン"}
+        title={"ポートフォリオ|ゼロイチ好きのより所『まめブロ』"}
         description={
           "Beauty Hair Salon GOOD-DAY(グッディ)では、美容師の仕事が大好きでたまらないスタイリストが在籍しています。それぞれ違う魅力を持ったあなただけのお気に入りの美容師に出会えますように。"
         }

@@ -8,7 +8,7 @@ const PersonalInformation: React.FC = () => {
         <div className={styles.area}>
           <h2 className={styles.privacyPolicyMainTitle}>PrivacyPolicy</h2>
           <p className={styles.privacyPolicyMainSubTitle}>
-            株式会社OneStep(ワンステップ)(以下、「当社」といいます。)は、本ウェブサイト上で提供するサービス(以下、「本サービス」といいます。)における、ユーザーの個人情報の取扱いについて、以下のとおりプライバシーポリシー(以下、「本ポリシー」といいます。)を定めます。
+            まめブロは、(以下、本ウェブサイトといいます。)本ウェブサイト上で提供するサービス(以下、「本サービス」といいます。)における、ユーザーの個人情報の取扱いについて、以下のとおりプライバシーポリシー(以下、「本ポリシー」といいます。)を定めます。
           </p>
           <>
             <h2 className={styles.privacyPolicyTitle}>第1条(個人情報)</h2>
@@ -197,10 +197,10 @@ const PersonalInformation: React.FC = () => {
               </p>
               <br />
               <ul>
-                <li>住所:&nbsp;〒710-0834 岡山県倉敷市笹沖449-4</li>
+                {/* <li>住所:&nbsp;〒710-0834 岡山県倉敷市笹沖449-4</li>
                 <li>社名:&nbsp;株式会社OneStep</li>
-                <li>担当部署:&nbsp;DesignStudio</li>
-                <li>E-mail:&nbsp;gooddaybss777@gmail.com</li>
+                <li>担当部署:&nbsp;DesignStudio</li> */}
+                <li>E-mail:&nbsp;mames23@yahoo.ne.jp</li>
               </ul>
             </div>
           </>

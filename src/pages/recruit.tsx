@@ -8,7 +8,7 @@ export default function Recruit() {
   return (
     <>
       <SEO
-        title={"GOOD-DAYご利用について|岡山県倉敷市の個室シェアサロン"}
+        title={"ゼロイチ好きのより所『まめブロ』"}
         description={
           "岡山県倉敷市にあるシェアサロンGOOD-DAY(グッディ)では、フリーランススタイリストさんに店舗をご利用いただいています。グッディでは会員登録後、好きな時に好きなだけ店舗を利用できます。"
         }

@@ -5,7 +5,7 @@ const PrivacyPolicy: React.FC = () => {
   return (
     <>
       <SEO
-        title={"GOOD-DAYプライバシーポリシー|岡山県倉敷市の個室シェアサロン"}
+        title={"プライバシーポリシー|ゼロイチ好きのより所『まめブロ』"}
         description={""}
         keyword={""}
         image={""}

@@ -1,14 +1,14 @@
 .features {
   position: relative;
   min-height: 100%;
-  background-image: url("/media/Service_00.png");
+  background-image: url("/media/phi_bk.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
 	z-index: 2;
   margin: 5.8rem auto 0;
-  width: 90%;
+  width: 100%;
   height: auto;
   padding: 2rem;
 
@@ -66,7 +66,7 @@
   font-weight: bold;
   margin: 2rem auto 2.4rem;
   text-align: center;
-  width: 80%;
+  width: 100%;
   max-width: 300px;
 
   @media (max-width: 767px) {
@@ -79,7 +79,7 @@
   background: #fff;
   box-sizing: border-box;
   display: flex;
-  height: 50px;
+  height: 30px;
   justify-content: center;
   position: relative;
   width: 100%;
@@ -105,7 +105,7 @@
   width: 100%;
 
   &:hover {
-    box-shadow: 0 0 4px #CAD4E2, -2px -2px 4px #FFF;
+    box-shadow: 0 0 4px #CAD4E2, -2px -2px 6px #FFF;
     left: 0;
     top: 0;
   }

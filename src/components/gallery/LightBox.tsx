@@ -7,6 +7,7 @@ import YukaStyles from "./YukaStyles";
 import MaiStyles from "./MaiStyles";
 import React, { useState } from "react";
 import Lightbox from "lightbox-react";
+import SEO from "../../components/layouts/SEO";
 import "lightbox-react/style.css";
 
 export default function LightBox() {
@@ -28,6 +29,17 @@ export default function LightBox() {
   const [isOpen, setisOpen] = useState(false);
   return (
     <>
+      <SEO
+          title={"ゆるかわイラスト集|ゼロイチ好きのより所『まめブロ』"}
+          description={
+            "ゆるくてかわいい『ゆるかわイラスト』を集めました！ゆるい線画にこだわりの配色でときめくイラストを描いています！"
+          }
+          keyword={
+            "イラスト,イラスト手書き,イラストレーター,線画イラスト,Illustrator,配色"
+          }
+          image={"/styles/illust01.jpg"}
+          url={""}
+        />
       <div>
       <main className="">
       <div className={styles.lightBoxFlex}>

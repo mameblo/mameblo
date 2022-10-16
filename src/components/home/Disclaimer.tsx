@@ -8,7 +8,7 @@ const Disclaimer: React.FC = () => {
         <div className={styles.area}>
           <h2 className={styles.sitePolicyMainTitle}>SitePolicy</h2>
           <p className={styles.sitePolicyMainSubTitle}>
-            Beauty Hair Salon GOOD-DAY ウェブサイト
+            まめブロ
             https://good-day.com(以下、本ウェブサイト)の利用に先立ち、本利用条件をお読みいただき、これに同意した場合に限りご利用ください。なお、本利用条件は変更される場合があります。最新の内容をご確認いただきますようお願いいたします。
             <br />
             <br />

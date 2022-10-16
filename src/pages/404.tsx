@@ -10,7 +10,7 @@ export default function Custom404() {
         title={"ページがありません|岡山県倉敷市の個室シェアサロン"}
         description={"こちらは普段は表示されないページです"}
         keyword={"404"}
-        image={"/media/404notfound_00.jpg"}
+        image={"/media/phi_bk.jpg"}
         url={""}
       />
       <main className={styles.detailArea}>

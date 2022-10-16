@@ -12,7 +12,7 @@ const Customer: React.FC = () => {
           <ul className={styles.flex}>
             <li>
               <Image
-                src={"/media/Customer_00.png"}
+                src={"/media/serviced02.png"}
                 objectFit="contain"
                 alt={"こだわり1"}
                 width={240}
@@ -23,7 +23,7 @@ const Customer: React.FC = () => {
             </li>
             <li>
               <Image
-                src={"/media/Customer_01.png"}
+                src={"/media/serviced04.png"}
                 objectFit="contain"
                 alt={"こだわり2"}
                 width={240}
@@ -38,7 +38,7 @@ const Customer: React.FC = () => {
           <ul className={styles.flex}>
             <li>
               <Image
-                src={"/media/Customer_02.png"}
+                src={"/media/serviced01.png"}
                 objectFit="contain"
                 alt={"こだわり3"}
                 width={240}
@@ -49,7 +49,7 @@ const Customer: React.FC = () => {
             </li>
             <li>
               <Image
-                src={"/media/Customer_03.png"}
+                src={"/media/serviced03.png"}
                 objectFit="contain"
                 alt={"こだわり4"}
                 width={240}
