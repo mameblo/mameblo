@@ -1,3 +1,6 @@
+//--------------------
+// Lightbox.tsxのcss
+//--------------------//
 .main {
   height: auto;
   margin: 5.8rem auto 2rem;
@@ -33,7 +36,6 @@
     width: 100%;
   }
 }
-
 .illustColumn {
   display: flex;
   flex-wrap: wrap;
@@ -51,19 +53,22 @@
   text-align: center;
 }
 .illustSingle {
-  background-color: #fafafa;
-  border: solid 0.1px #eeeeee;
-  border-radius: 8px;
-  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
-  // width: calc(25% - 20%);
+  filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.2));
   height: auto;
   margin: 2rem;
   padding: 0;
 
   @media (max-width: 767px) {
-      // width: calc(50% - 32px);
       text-align: center;
       width: 45%;
+  }
+}
+.illustImageHover {
+  box-sizing: border-box;
+  &:hover {
+    opacity: 0.9;
+    // outline:solid 4px #0000ee;
+    // outline-offset: -10px;
   }
 }
 .next {
@@ -115,3 +120,4 @@
     top: 0;
   }
 }
+

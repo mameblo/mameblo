@@ -1,8 +1,8 @@
 // ━━━━━━━━━━━━━━━━━━━━
-// stylist.tsxのcss
+// portfolio.tsxのcss
 // ━━━━━━━━━━━━━━━━━━━━
 .mainHome {
-  margin-top: 5.8rem;
+  margin: 5.8rem;
 
   @media screen and (max-width:767px) {
     margin-top: 7.8rem;
@@ -16,7 +16,7 @@
   font-weight: bold;
   margin: 0 auto;
   width: 90%;
-  padding-bottom: 1rem;
+  padding: 3rem 0rem 1rem 0;
 }
 .stylistMainTitleText {
   font-size: 16px;
@@ -28,28 +28,35 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 0.5rem;
 }
-.stylistSingle {
-  background-color: #fafafa;
-  border: solid 0.1px #eeeeee;
-  border-radius: 8px;
-  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
-  width: calc(25% - 32px);
-  height: auto;
-  margin: 0.6rem;
-  padding: 0;
+// .illustSingle {
+//   background-color: #fafafa;
+//   border: solid 0.1px #eeeeee;
+//   border-radius: 8px;
+//   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+//   // width: calc(25% - 20%);
+//   height: auto;
+//   margin: 2rem;
+//   padding: 0;
 
-  @media (max-width: 767px) {
-      // width: calc(50% - 32px);
-      text-align: center;
-      width: 100%;
-  }
-}
+//   @media (max-width: 767px) {
+//       // width: calc(50% - 32px);
+//       text-align: center;
+//       width: 45%;
+//   }
+// }
 .stylistSubTitle {
-  font-size:24px;
+  font-size:20px;
   font-weight: bold;
-  margin: 1rem auto;
+  margin: 0 auto;
+  margin: 1rem;
+  padding-bottom: 1.5rem;
   text-align: center;
+  @media (max-width: 767px) {
+    text-align: center;
+    width: 90%;
+  }
 }
 .stylistBody {
   color: #696969;
@@ -66,6 +73,7 @@
 .stylistImage {
   margin: 0 auto;
   width: 240px;
+  
 }
 .stylistDetailUrl {
   color: #333333;
@@ -82,8 +90,21 @@
       background-color: #333333;
   }
   @media (max-width: 767px) {
-      width: 80%;
+      width: 100%;
       margin-bottom: 2rem;
+  }
+}
+.img {
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+  // width: calc(25% - 20%);
+  height: auto;
+  margin: 2rem auto;
+  padding: 0;
+
+  @media (max-width: 767px) {
+      // width: calc(50% - 32px);
+      text-align: center;
+      width: 100%;
   }
 }
 .next {
@@ -96,7 +117,7 @@
   max-width: 300px;
 
   @media (max-width: 767px) {
-    width: 60%;
+    width: 100%;
     margin-bottom: 2rem;
   }
 }

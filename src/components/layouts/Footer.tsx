@@ -39,25 +39,18 @@ export default function Footer() {
           </ul>
         </div>
         <div className={styles.footerBrock}>
-          <Link href={"/stylist"} passHref>
+          <Link href={"/portfolio"} passHref>
             <a>
               <p className={styles.footerTitle}>Portfolio</p>
             </a>
           </Link>
           <ul className={styles.footerUl}>
-            <Link href={"/stylist"} passHref>
+            <Link href={"/portfolio"} passHref>
               <a>
                 <li>作品集</li>
               </a>
             </Link>
           </ul>
-          {/* <ul className={styles.footerUl}>
-            <Link href={"/stylist"} passHref>
-              <a>
-                <li>倉敷中島店</li>
-              </a>
-            </Link>
-          </ul> */}
         </div>
         <div className={styles.footerBrock}>
           <Link href={"/philosophy"} passHref>
@@ -73,7 +66,7 @@ export default function Footer() {
             </Link>
           </ul>
         </div>
-        <div className={styles.footerBrock}>
+        {/* <div className={styles.footerBrock}>
           <Link href={"/service"} passHref>
             <a>
               <p className={styles.footerTitle}>Service</p>
@@ -87,25 +80,6 @@ export default function Footer() {
             </Link>
           </ul>
         </div>
-        {/* <div className={styles.footerBrock}>
-          <Link href={"/recruit"} passHref>
-            <a>
-              <p className={styles.footerTitle}>Me</p>
-            </a>
-          </Link>
-          <ul className={styles.footerUl}>
-            <Link href={"/recruit/#RecruitmentSummary"} passHref>
-              <a>
-                <li>私について</li>
-              </a>
-            </Link>
-            <Link href={"/recruit/#FAQ"} passHref>
-              <a>
-                <li>よくある質問(FAQ)</li>
-              </a>
-            </Link>
-          </ul>
-        </div> */}
         <div className={styles.footerBrock}>
           <Link href={"/company"} passHref>
             <a>
@@ -119,10 +93,10 @@ export default function Footer() {
               </a>
             </Link>
           </ul>
-        </div>
+        </div> */}
       </div>
       <div className={styles.rules}>
-        <p className={styles.footerTitle}>Webサイトのご利用について</p>
+        <p className={styles.footerTitle_web}>Webサイトのご利用について</p>
         <div>
           <ul className={styles.footerContentsEven}>
             <Link href={"/sitepolicy"} passHref>

@@ -87,7 +87,7 @@ const Features: React.FC = () => {
             </div>
           </>
           <div className={styles.next}>
-            <Link href={"/service"} passHref>
+            <Link href={"/portfolio"} passHref>
               <a className={styles.nextInner}>
                 <span className={styles.nextInnerIn}>デザイン例をみる</span>
               </a>

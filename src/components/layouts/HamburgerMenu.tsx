@@ -36,7 +36,7 @@ export default function HamburgerMenu() {
               </Link>
             </li>
             <li>
-              <Link href="/stylist" passHref>
+              <Link href="/portfolio" passHref>
                 <a>Portfolio</a>
               </Link>
             </li>
@@ -46,16 +46,6 @@ export default function HamburgerMenu() {
               </Link>
             </li>
             {/* <li>
-              <Link href="/illustrater" passHref>
-                <a>illust</a>
-              </Link>
-            </li> */}
-            {/* <li>
-              <Link href="/company" passHref>
-                <a>{me}</a>
-              </Link>
-            </li> */}
-            <li>
               <Link href="/service" passHref>
                 <a>Service</a>
               </Link>
@@ -64,7 +54,7 @@ export default function HamburgerMenu() {
               <Link href="/" passHref>
                 <a>contact</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <div className={styles.container}>
@@ -86,7 +76,7 @@ export default function HamburgerMenu() {
             <p>Close</p>
           </div>
           <li>
-            <Link href="/stylist" passHref>
+            <Link href="/portfolio" passHref>
               <a>
                 <p className={styles.mainTitle}>Portfolio</p>
                 <p className={styles.subTitle}>作品集</p>

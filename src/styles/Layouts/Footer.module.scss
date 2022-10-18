@@ -9,7 +9,7 @@
   justify-content: space-between;
   list-style: none;
   margin: 1rem auto 3rem;
-  width: 96%;
+  width: 80%;
 
   @media (max-width: 767px) {
     display: block;
@@ -22,7 +22,7 @@
   justify-content: space-evenly;
   list-style: none;
   margin: 1rem auto 0;
-  width: 96%;
+  width: 90%;
 
   @media (max-width: 767px) {
     display: block;
@@ -30,14 +30,24 @@
   }
 }
 .footerBrock {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .rules {
   margin: 0 auto 3rem;
-  width: 94%;
+  width: 90%;
 }
 .footerTitle {
   font-weight: bold;
+  text-align: center;
+
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+}
+.footerTitle_web {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1rem;
 
   @media (max-width: 767px) {
     text-align: center;

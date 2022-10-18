@@ -2,9 +2,6 @@ import react from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/Gallery/Gallery.module.scss";
-import NamiStyles from "./NamiStyles";
-import YukaStyles from "./YukaStyles";
-import MaiStyles from "./MaiStyles";
 import React, { useState } from "react";
 import Lightbox from "lightbox-react";
 import SEO from "../../components/layouts/SEO";
@@ -60,17 +57,19 @@ export default function LightBox() {
               <div className={styles.illustColumn}>
                 {images1.map((image, index) => (
                   <div className={styles.illustSingle} key="index">
-                    <Image
-                      src={`/img/${image}`}
-                      alt={image}
-                      width={200}
-                      height={200}
-                      onClick={() => {
-                        setisOpen(true), setIndex(index);
-                      }}
-                      key={index}
-                      className=""
-                    />
+                    <div className={styles.illustImageHover}>
+                      <Image
+                        src={`/img/${image}`}
+                        alt={image}
+                        width={200}
+                        height={200}
+                        onClick={() => {
+                          setisOpen(true), setIndex(index);
+                        }}
+                        key={index}
+                        className=""
+                      />
+                    </div>
                   </div>
                 ))}
               </div>

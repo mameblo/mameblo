@@ -1,6 +1,6 @@
 export const routes = [
   { name: "Home", link: "/home" },
-  { name: "Stylist", link: "/stylist" },
+  { name: "Portfoilo", link: "/portfolio" },
   { name: "Service", link: "/service" },
   { name: "Philosophy", link: "/philosophy" },
   { name: "Recruit", link: "/recruit" },

@@ -4,15 +4,15 @@ import Link from "next/link";
 import Image from "next/image";
 import { client } from "../libs/client";
 import SEO from "../components/layouts/SEO";
-import type { Stylist } from "../types/stylist";
+import type { Portfolio } from "../types/portfolio";
 import styles from "../styles/Stylist/Stylist.module.scss";
 import HamburgerMenu from "../components/layouts/HamburgerMenu";
 
 type Props = {
-  stylists: Array<Stylist>;
+  portfolios: Array<Portfolio>;
 };
 
-export default function Stylist({ stylists }: Props) {
+export default function Stylist({ portfolios }: Props) {
   return (
     <>
       <SEO
@@ -32,27 +32,27 @@ export default function Stylist({ stylists }: Props) {
           <h2 className={styles.stylistMainTitle}>Portfolio</h2>
           <div className={styles.stylistMainTitleText}>作品一覧</div>
           <div className={styles.stylistColumn}>
-            {stylists.map((stylist) => (
-              <div className={styles.stylistSingle} key={stylist.id}>
-                <p>
+            {portfolios.map((portfolio) => (
+              <div className={styles.illustSingle} key={portfolio.id}>
+                <div className={styles.img}>
                   <Image
-                    src={stylist.eye_catch.url}
+                    src={portfolio.eye_catch.url}
                     objectFit="contain"
-                    alt={stylist.title + "の画像です"}
+                    alt={portfolio.title + "の画像です"}
                     width={400}
                     height={400}
                   />
-                </p>
+                </div>
                 <div className={styles.stylistSubTitle}>
-                  <a>{stylist.title}</a>
+                  <a>{portfolio.title}</a>
                 </div>
                 {/* <div className={styles.stylistTag}>
                   {stylist.tag && <span className="">#{stylist.tag}</span>}
                 </div> */}
                 <div className={styles.next}>
-                  <Link href={`/stylist/${stylist.id}`}>
+                  <Link href={`/portfolio/${portfolio.id}`}>
                     <a className={styles.nextInner}>
-                      <span className={styles.nextInnerIn}>詳しくはこちら</span>
+                      <span className={styles.nextInnerIn}>もっとみる</span>
                     </a>
                   </Link>
                 </div>
@@ -73,13 +73,13 @@ export default function Stylist({ stylists }: Props) {
 // データをテンプレートに受け渡す部分の処理を記述します
 export const getStaticProps = async () => {
   const data = await client.get({
-    endpoint: "stylists",
+    endpoint: "portfolios",
     queries: { limit: 100, offset: 0 },
   });
 
   return {
     props: {
-      stylists: data.contents,
+      portfolios: data.contents,
     },
   };
 };

@@ -1,10 +1,10 @@
-export type Stylist = {
+export type Portfolio = {
   id: string;
   createdAt: string;
   updatedAt: string;
   publishedAt: string;
   revisedAt: string;
-  stylist_id: number;
+  portfolio_id: number;
   eye_catch: {
     url: string;
     height: number;
