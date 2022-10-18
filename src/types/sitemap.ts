@@ -6,4 +6,4 @@ export interface Sitemap {
     createdAt: string;
     title: string;
   }[];
-};
+}
