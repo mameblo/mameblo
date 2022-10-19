@@ -13,7 +13,7 @@ const PageTemplate = ({ children, title }: PageTemplateProps) => {
     <>
       <Head>
         <title>
-          {title ? title : "倉敷市のシェアサロン|GOOD-DAY(グッディ)"}
+          {title ? title : "まめブロ|ゼロイチ好きのよりどころ"}
         </title>
       </Head>
       <header>

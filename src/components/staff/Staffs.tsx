@@ -41,7 +41,7 @@ const Staffs: React.FC = () => {
                       className={styles.stylistImageHover}
                       src={"/media/namecard_00.jpg"}
                       objectFit="contain"
-                      alt={"Dai"}
+                      alt={"名刺デザイン"}
                       width={240}
                       height={240}
                     />
@@ -55,7 +55,7 @@ const Staffs: React.FC = () => {
                       className={styles.stylistImageHover}
                       src={"/media/namecard_01.jpg"}
                       objectFit="contain"
-                      alt={"Natsuki"}
+                      alt={"名刺デザインver2"}
                       width={240}
                       height={240}
                     />
@@ -69,7 +69,7 @@ const Staffs: React.FC = () => {
                       className={styles.stylistImageHover}
                       src={"/media/namecard_02.jpg"}
                       objectFit="contain"
-                      alt={"Nozomi"}
+                      alt={"名刺デザインver3"}
                       width={240}
                       height={240}
                     />
@@ -87,7 +87,7 @@ const Staffs: React.FC = () => {
                       className={styles.stylistImageHover}
                       src={"/media/logo.jpg"}
                       objectFit="contain"
-                      alt={"John"}
+                      alt={"ロゴデザイン"}
                       width={240}
                       height={240}
                     />
@@ -102,7 +102,7 @@ const Staffs: React.FC = () => {
                       className={styles.stylistImageHover}
                       src={"/media/ticket00.jpg"}
                       objectFit="contain"
-                      alt={"Mika"}
+                      alt={"チケットデザイン"}
                       width={240}
                       height={240}
                     />
@@ -116,7 +116,7 @@ const Staffs: React.FC = () => {
                       className={styles.stylistImageHover}
                       src={"/media/ticket01.jpg"}
                       objectFit="contain"
-                      alt={"Katayama"}
+                      alt={"チケットデザインver2"}
                       width={240}
                       height={240}
                     />
@@ -134,7 +134,7 @@ const Staffs: React.FC = () => {
                       className={styles.stylistImageHover}
                       src={"/media/flyer03.jpg"}
                       objectFit="contain"
-                      alt={"John"}
+                      alt={"チラシデザイン"}
                       width={240}
                       height={240}
                     />
@@ -148,7 +148,7 @@ const Staffs: React.FC = () => {
                       className={styles.stylistImageHover}
                       src={"/media/flyer04.jpg"}
                       objectFit="contain"
-                      alt={"Dai"}
+                      alt={"チラシデザインver2"}
                       width={240}
                       height={240}
                     />
@@ -162,7 +162,7 @@ const Staffs: React.FC = () => {
                       className={styles.stylistImageHover}
                       src={"/media/flyer05.jpg"}
                       objectFit="contain"
-                      alt={"Natsuki"}
+                      alt={"チラシデザインver3"}
                       width={240}
                       height={240}
                     />

@@ -83,31 +83,31 @@ export default function HamburgerMenu() {
               </a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/service" passHref>
               <a>
                 <p className={styles.mainTitle}>Service</p>
                 <p className={styles.subTitle}>サービス</p>
               </a>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/philosophy" passHref>
               <a>
                 <p className={styles.mainTitle}>philosophy</p>
-                <p className={styles.subTitle}>理念</p>
+                <p className={styles.subTitle}>デザインと向き合う上で大切にしたいこと</p>
               </a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/company" passHref>
               <a>
                 <p className={styles.mainTitle}>{me}</p>
                 <p className={styles.subTitle}>私について</p>
               </a>
             </Link>
-          </li>
-          <div className={styles.poyoyon}>
+          </li> */}
+          {/* <div className={styles.poyoyon}>
             <li className={styles.drawerMenuLi2}>
               <Link
                 href="https://sam004.salonanswer.com/sas/reserve/goodday/staff"
@@ -119,7 +119,7 @@ export default function HamburgerMenu() {
                 </a>
               </Link>
             </li>
-          </div>
+          </div> */}
         </ul>
       </div>
     </>
