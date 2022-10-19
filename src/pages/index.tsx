@@ -37,7 +37,7 @@ export default function Home({ articles }: Props) {
         <LightBox />
         <div className={styles.articleArea}>
           <h2 className={styles.articleMainTitle}>Blog</h2>
-          <p className={styles.articleSubTitle}>ブログ</p>
+          <p className={styles.articleSubTitle}>ブログ◯</p>
           {articles.map((article) => (
             <div className={styles.articleSingle} key={article.id}>
               <div className={styles.articleFlex}>
