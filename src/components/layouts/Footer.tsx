@@ -3,8 +3,11 @@ import Image from "next/image";
 import styles from "../../styles/Layouts/Footer.module.scss";
 import ToTopButton from "../home/ToTopButton";
 import UnderNotice from "../../components/home/UnderNotice";
+// import data from "../../data/shops.json";
 
 export default function Footer() {
+  // const nakashima = data.nakashima;
+  // const noda = data.noda;
   return (
     <footer className={styles.mainFooter}>
       <ToTopButton />
@@ -24,6 +27,19 @@ export default function Footer() {
             </a>
           </Link>
         </div>
+        {/* <div className={styles.footerUl}>
+            {noda.map((shop) => {
+              return (
+                <ul key={shop.shop_id}>
+                  <Link href={`/company/${shop.url}`} passHref>
+                    <a>
+                      <li>{shop.name}</li>
+                    </a>
+                  </Link>
+                </ul>
+              );
+            })}
+          </div> */}
         <div className={styles.footerBrock}>
           <Link href={"/index"} passHref>
             <a>
@@ -66,34 +82,6 @@ export default function Footer() {
             </Link>
           </ul>
         </div>
-        {/* <div className={styles.footerBrock}>
-          <Link href={"/service"} passHref>
-            <a>
-              <p className={styles.footerTitle}>Service</p>
-            </a>
-          </Link>
-          <ul className={styles.footerUl}>
-            <Link href={"/service/#Customer"} passHref>
-              <a>
-                <li>お客様へ</li>
-              </a>
-            </Link>
-          </ul>
-        </div>
-        <div className={styles.footerBrock}>
-          <Link href={"/company"} passHref>
-            <a>
-              <p className={styles.footerTitle}>Contact</p>
-            </a>
-          </Link>
-          <ul className={styles.footerUl}>
-            <Link href={"/company/#NewShop"} passHref>
-              <a>
-                <li>お問い合わせはこちら</li>
-              </a>
-            </Link>
-          </ul>
-        </div> */}
       </div>
       <div className={styles.rules}>
         <p className={styles.footerTitle_web}>Webサイトのご利用について</p>
