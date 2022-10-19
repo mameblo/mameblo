@@ -20,22 +20,22 @@ export default function LightBox() {
     "../styles/illust03_5.jpg",
   ];
   const title = [
-    "スケートで走るおんなのこver.1",
-    "スケートで走るおんなのこver.2",
-    "スケートで走るおんなのこver.3",
-    "ねむたいちゃんver.1",
-    "ねむたいちゃんver.2",
-    "ねむたいちゃんver.3",
     "みんな違ってみんないい。ver.1",
     "みんな違ってみんないい。ver.2",
     "みんな違ってみんないい。ver.3",
+    "ねむたいちゃんver.1",
+    "ねむたいちゃんver.2",
+    "ねむたいちゃんver.3",
+    "スケートで走るおんなのこver.1",
+    "スケートで走るおんなのこver.2",
+    "スケートで走るおんなのこver.3",
   ];
 
   const [photoIndex, setIndex] = useState(0);
   const [isOpen, setisOpen] = useState(false);
   return (
     <>
-      <SEO
+      {/* <SEO
         title={"ゆるかわイラスト集|ゼロイチ好きのより所『まめブロ』"}
         description={
           "ゆるくてかわいい『ゆるかわイラスト』を集めました！ゆるい線画にこだわりの配色でときめくイラストを描いています！"
@@ -45,7 +45,7 @@ export default function LightBox() {
         }
         image={"/styles/illust01.jpg"}
         url={""}
-      />
+      /> */}
       <div>
         <main className="">
           <div className={styles.lightBoxFlex}>
