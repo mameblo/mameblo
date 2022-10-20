@@ -95,7 +95,9 @@ export default function HamburgerMenu() {
             <Link href="/philosophy" passHref>
               <a>
                 <p className={styles.mainTitle}>philosophy</p>
-                <p className={styles.subTitle}>デザインと向き合う上で大切にしたいこと</p>
+                <p className={styles.subTitle}>
+                  デザインと向き合う上で大切にしたいこと
+                </p>
               </a>
             </Link>
           </li>

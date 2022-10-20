@@ -12,9 +12,7 @@ const PageTemplate = ({ children, title }: PageTemplateProps) => {
   return (
     <>
       <Head>
-        <title>
-          {title ? title : "まめブロ|ゼロイチ好きのよりどころ"}
-        </title>
+        <title>{title ? title : "まめブロ|ゼロイチ好きのよりどころ"}</title>
       </Head>
       <header>
         <Header />
