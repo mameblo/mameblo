@@ -18,8 +18,6 @@ const Company: React.FC = () => {
         url={""}
       />
       <NewShop />
-      <Nakashima />
-      <Corporation />
     </>
   );
 };

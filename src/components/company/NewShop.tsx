@@ -20,34 +20,65 @@ export default function NewShop() {
         <table className={styles.menuArea}>
           <tbody>
             <tr className={styles.menuTableTr}>
-              <th className={styles.menuTableTh}>どんなことを学んできたか</th>
+              <th className={styles.menuTableTh}>名前</th>
+              <td className={styles.menuTableTd}>浜田 佳音</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr className={styles.menuTableTr}>
+              <th className={styles.menuTableTh}>好きなこと</th>
               <td className={styles.menuTableTd}>
-                デザイン・プログラミング(HTML,CSS,Java,JavaScriptなど)・広告運用・簿記・マーケティング・地域活性化活動など
-                <br />
-                <br />
-                私は学生時代美術部にも入らず、デザインの専門学校にも美術大学にも行っておりません。
-                <br />
-                独学でデザインを学んできました。
-                <br />
-                今後は独学でデザインを学びたい人の力になれるようなことをしたいとも考えています！
+                音楽を聴くこと・アニメを見ること・イラストを描くこと
               </td>
             </tr>
           </tbody>
           <tbody>
             <tr className={styles.menuTableTr}>
-              <th className={styles.menuTableTh}>なぜデザインが好きか</th>
-              <td className={styles.menuTableTd}>応募受付中</td>
+              <th className={styles.menuTableTh}>私を一言で表すなら</th>
+              <td className={styles.menuTableTd}>
+                好奇心旺盛！好きなことにまっすぐな独学デザイナー
+              </td>
             </tr>
           </tbody>
           <tbody>
             <tr className={styles.menuTableTr}>
-              <th className={styles.menuTableTh}>趣味</th>
+              <th className={styles.menuTableTh}>
+                目玉焼きには醤油かウスターソスか
+              </th>
+              <td className={styles.menuTableTd}>断然ウスターソース！</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr className={styles.menuTableTr}>
+              <th className={styles.menuTableTh}>好きな食べ物</th>
               <td className={styles.menuTableTd}>
+                サーモン！
+                <br />
+                1日3食サーモン食べたい。それぐらいサーモンが大好きです！
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr className={styles.menuTableTr}>
+              <th className={styles.menuTableTh}>好きな音楽</th>
+              <td className={styles.menuTableTd}>
+                BUMP OF CHICKEN || WANIMA || Mr.Children || Mrs.GREEN APPLE
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr className={styles.menuTableTr}>
+              <th className={styles.menuTableTh}>できること</th>
+              <td className={styles.menuTableTd}>
+                デザイン(Illustrator・Photoshop)
+                <br />
+                イラスト
+                <br />
                 <div className={styles.flex}>
                   <div className={styles.nemuVertical}>
-                    公式LINEよりご連絡ください。
+                    ポートフォリオはこちら
                   </div>
-                  <Link href={"https://line.me/R/ti/p/%40511gsugf"} passHref>
+                  <Link href={"/portfolio"} passHref>
                     <a>
                       <div className={styles.line}></div>
                     </a>
@@ -58,15 +89,30 @@ export default function NewShop() {
           </tbody>
           <tbody>
             <tr className={styles.menuTableTr}>
-              <th className={styles.menuTableTh}>大切にしていること</th>
-              <td className={styles.menuTableTd}>2022年11月を予定</td>
+              <th className={styles.menuTableTh}>将来の夢</th>
+              <td className={styles.menuTableTd}>
+                海が見えてハンモックがある家に住むこと
+                <br />
+                アーティストのグッズデザイン
+                <br />
+                オーロラを見ること
+              </td>
             </tr>
           </tbody>
           <tbody>
-            <tr className={styles.menuTablLast}>
-              <th className={styles.menuTableTh}>人と違うなと思うところ</th>
+            <tr className={styles.menuTableTr}>
+              <th className={styles.menuTableTh}>連絡先</th>
               <td className={styles.menuTableTd}>
-                未定(決まり次第お知らせします)
+                <div className={styles.flex}>
+                  <div className={styles.nemuVertical}>
+                    公式LINEよりsご連絡ください。
+                  </div>
+                  <Link href={"https://line.me/R/ti/p/%40511gsugf"} passHref>
+                    <a>
+                      <div className={styles.line}></div>
+                    </a>
+                  </Link>
+                </div>
               </td>
             </tr>
           </tbody>
