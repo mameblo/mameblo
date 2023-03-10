@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className={styles.mainFooter}>
       <ToTopButton />
-      <UnderNotice />
+      {/* <UnderNotice /> */}
       <div className={styles.footerContents}>
         <div className={styles.footerBrock}>
           <Link href={"/"} passHref>
